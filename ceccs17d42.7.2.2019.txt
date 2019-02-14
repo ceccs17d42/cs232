@@ -1,0 +1,1157 @@
+Script started on Thursday 07 February 2019 09:39:42 AM IST
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ lsa[K
+7Feb.txt  [0m[01;34mDocuments[0m  examples.desktop  [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDesktop[0m   [01;34mDownloads[0m  [01;34mMusic[0m             [01;34mPublic[0m    [01;34mVideos[0m
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ lsw -l[K[K[K[K l[K-l
+total 44
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 09:39 7Feb.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownloads[0m
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 examples.desktop
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mVideos[0m
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls -lt
+total 44
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 09:39 7Feb.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownloads[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mVideos[0m
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 examples.desktop
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls -ltr
+total 44
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 examples.desktop
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [0m[01;34mVideos[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownloads[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDesktop[0m
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 09:39 7Feb.txt
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls *ab[K[K[Kab* -d
+ls: cannot access 'ab*': No such file or directory
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat > abc.txt
+1 
+2 
+3 
+4 
+5 ^C
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat > abc.txt[4Pls ab* -d
+abc.txt
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls ab* -d[1P[1P[C[1P -d[C[C[C[K[Kalias[K[K[K[K[K[K[K[K[Kalis[Kas ll = 'ls-l -l[C[C'
+alias ll='ls -alF'
+bash: alias: =: not found
+bash: alias: ls -l: not found
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat >x[K xyz/y[K[K.tcx[Kx[K[Kx[Kxt
+\ Ritty
+Thomas
+Thurht  thayil
+Hop use
+Chnag   anag  ganaceh  herru y
+^C
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ paste ac[Kbc.txt xyz.txt
+1 	Ritty
+2 	Thomas
+3 	Thurthayil
+4 	House
+	Changanacherry
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ join 4[K56 [K[K abx[Kc.txt
+join: 5: No such file or directory
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat ab x[K[Kx[K[K[K> anx[K[Kbc,tr[K[K[K.rxt[K[K[Ktxt
+1 
+2 
+3 
+4 
+5
+^C
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat > abc.txt[1@join 5[C[C[C[C[C[C[C[Cpaste abc.txt xyz.txt
+1 	Ritty
+2 	Thomas
+3 	Thurthayil
+4 	House
+5	Changanacherry
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls -l !.txt[C[1P.txt?.txt
+ls: cannot access '?.txt': No such file or directory
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls -l ?.txt[1P.txt*.txt
+-rw-rw-r-- 1 s4d2 s4d2 4096 Feb  7 09:45 7Feb.txt
+-rw-rw-r-- 1 s4d2 s4d2   14 Feb  7 09:44 abc.txt
+-rw-rw-r-- 1 s4d2 s4d2   45 Feb  7 09:43 xyz.txt
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep a abx.[K[Kc.txt
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep a abc.txt[3Pls -l *.txt?.txtpaste abc.txt xyz.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcat > abc.txt[1@join 5[C[C[C[C[C[C[C[C[1Pcat >[C[C[C[C[C[C[C[C[1P abc.txt[1Pabc.txt[C abc.txt
+1 
+2 
+3 
+4 
+5
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat  abc.txt[2@grep a[C[C[C[C[C[C[C[C[1P abc.txt1 abc.txt[1P abc.txta abc.txt[C[C[C[C[1P.txt[1P.txt[1P.txtx.txty.txtz.txt
+Thom[01;31m[Ka[m[Ks
+Thurth[01;31m[Ka[m[Kyil
+Ch[01;31m[Ka[m[Kng[01;31m[Ka[m[Kn[01;31m[Ka[m[Kcherry
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep a,v[Kb [K[Kr[Kt xyz.txt
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep a,t xyz.txt[1P xyz.txt[1P xyz.txt[C[C[C[C[1P.txt[1P.txt[1P.txt*.txt
+[35m[K7Feb.txt[m[K[36m[K:[m[KScript st[01;31m[Ka[m[Krted on Thursd[01;31m[Ka[m[Ky 07 Febru[01;31m[Ka[m[Kry 2019 09:39:42 AM IST
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls[01;31m[Ka[m[K[K
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K7Feb.txt  [0m[01;34mDocuments[0m  ex[01;31m[Ka[m[Kmples.desktop  [01;34mPictures[0m  [01;34mTempl[01;31m[Ka[m[Ktes[0m
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[01;34mDesktop[0m   [01;34mDownlo[01;31m[Ka[m[Kds[0m  [01;34mMusic[0m             [01;34mPublic[0m    [01;34mVideos[0m
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Ktot[01;31m[Ka[m[Kl 44
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownlo[01;31m[Ka[m[Kds[0m
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 ex[01;31m[Ka[m[Kmples.desktop
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTempl[01;31m[Ka[m[Ktes[0m
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Ktot[01;31m[Ka[m[Kl 44
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownlo[01;31m[Ka[m[Kds[0m
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTempl[01;31m[Ka[m[Ktes[0m
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 ex[01;31m[Ka[m[Kmples.desktop
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Ktot[01;31m[Ka[m[Kl 44
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 ex[01;31m[Ka[m[Kmples.desktop
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTempl[01;31m[Ka[m[Ktes[0m
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownlo[01;31m[Ka[m[Kds[0m
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls *[01;31m[Ka[m[Kb[K[K[K[01;31m[Ka[m[Kb* -d
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Kls: c[01;31m[Ka[m[Knnot [01;31m[Ka[m[Kccess '[01;31m[Ka[m[Kb*': No such file or directory
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[Ka[m[Kt > [01;31m[Ka[m[Kbc.txt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[Ka[m[Kt > [01;31m[Ka[m[Kbc.txt[4Pls [01;31m[Ka[m[Kb* -d
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[01;31m[Ka[m[Kbc.txt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls [01;31m[Ka[m[Kb* -d[1P[1P[C[1P -d[C[C[C[K[K[01;31m[Ka[m[Kli[01;31m[Ka[m[Ks[K[K[K[K[K[K[K[K[K[01;31m[Ka[m[Klis[K[01;31m[Ka[m[Ks ll = 'ls-l -l[C[C'
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[01;31m[Ka[m[Kli[01;31m[Ka[m[Ks ll='ls -[01;31m[Ka[m[KlF'
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Kb[01;31m[Ka[m[Ksh: [01;31m[Ka[m[Kli[01;31m[Ka[m[Ks: =: not found
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Kb[01;31m[Ka[m[Ksh: [01;31m[Ka[m[Kli[01;31m[Ka[m[Ks: ls -l: not found
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[Ka[m[Kt >x[K xyz/y[K[K.tcx[Kx[K[Kx[Kxt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[KThom[01;31m[Ka[m[Ks
+
+[35m[K7Feb.txt[m[K[36m[K:[m[KThurht  th[01;31m[Ka[m[Kyil
+
+[35m[K7Feb.txt[m[K[36m[K:[m[KChn[01;31m[Ka[m[Kg   [01;31m[Ka[m[Kn[01;31m[Ka[m[Kg  g[01;31m[Ka[m[Kn[01;31m[Ka[m[Kceh  herru y
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ p[01;31m[Ka[m[Kste [01;31m[Ka[m[Kc[Kbc.txt xyz.txt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K2 	Thom[01;31m[Ka[m[Ks
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K3 	Thurth[01;31m[Ka[m[Kyil
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K	Ch[01;31m[Ka[m[Kng[01;31m[Ka[m[Kn[01;31m[Ka[m[Kcherry
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ join 4[K56 [K[K [01;31m[Ka[m[Kbx[Kc.txt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[Ka[m[Kt [01;31m[Ka[m[Kb x[K[Kx[K[K[K> [01;31m[Ka[m[Knx[K[Kbc,tr[K[K[K.rxt[K[K[Ktxt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[Ka[m[Kt > [01;31m[Ka[m[Kbc.txt[1@join 5[C[C[C[C[C[C[C[Cp[01;31m[Ka[m[Kste [01;31m[Ka[m[Kbc.txt xyz.txt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K2 	Thom[01;31m[Ka[m[Ks
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K3 	Thurth[01;31m[Ka[m[Kyil
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K5	Ch[01;31m[Ka[m[Kng[01;31m[Ka[m[Kn[01;31m[Ka[m[Kcherry
+
+[35m[K7Feb.txt[m[K[36m[K:[m[Kls: c[01;31m[Ka[m[Knnot [01;31m[Ka[m[Kccess '?.txt': No such file or directory
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-rw-r-- 1 s4d2 s4d2   14 Feb  7 09:44 [01;31m[Ka[m[Kbc.txt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[Ka[m[K [01;31m[Ka[m[Kbx.[K[Kc.txt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[Ka[m[K [01;31m[Ka[m[Kbc.txt[3Pls -l *.txt?.txtp[01;31m[Ka[m[Kste [01;31m[Ka[m[Kbc.txt xyz.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pc[01;31m[Ka[m[Kt > [01;31m[Ka[m[Kbc.txt[1@join 5[C[C[C[C[C[C[C[C[1Pc[01;31m[Ka[m[Kt >[C[C[C[C[C[C[C[C[1P [01;31m[Ka[m[Kbc.txt[1P[01;31m[Ka[m[Kbc.txt[C [01;31m[Ka[m[Kbc.txt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[Ka[m[Kt  [01;31m[Ka[m[Kbc.txt[2@grep [01;31m[Ka[m[K[C[C[C[C[C[C[C[C[1P [01;31m[Ka[m[Kbc.txt1 [01;31m[Ka[m[Kbc.txt[1P [01;31m[Ka[m[Kbc.txt[01;31m[Ka[m[K [01;31m[Ka[m[Kbc.txt[C[C[C[C[1P.txt[1P.txt[1P.txtx.txty.txtz.txt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[KThom[01;31m[K[01;31m[Ka[m[K[m[Ks
+
+[35m[K7Feb.txt[m[K[36m[K:[m[KThurth[01;31m[K[01;31m[Ka[m[K[m[Kyil
+
+[35m[K7Feb.txt[m[K[36m[K:[m[KCh[01;31m[K[01;31m[Ka[m[K[m[Kng[01;31m[K[01;31m[Ka[m[K[m[Kn[01;31m[K[01;31m[Ka[m[K[m[Kcherry
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[Ka[m[K,v[Kb [K[Kr[Kt xyz.txt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[Ka[m[K,t xyz.txt[1P xyz.txt[1P xyz.txt[C[C[C[C[1P.txt[1P.txt[1P.txt*.txt
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KScript st[01;31m[K[01;31m[Ka[m[K[m[Krted on Thursd[01;31m[K[01;31m[Ka[m[K[m[Ky 07 Febru[01;31m[K[01;31m[Ka[m[K[m[Kry 2019 09:39:42 AM IST
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls[01;31m[K[01;31m[Ka[m[K[m[K[K
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K7Feb.txt  [0m[01;34mDocuments[0m  ex[01;31m[K[01;31m[Ka[m[K[m[Kmples.desktop  [01;34mPictures[0m  [01;34mTempl[01;31m[K[01;31m[Ka[m[K[m[Ktes[0m
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[01;34mDesktop[0m   [01;34mDownlo[01;31m[K[01;31m[Ka[m[K[m[Kds[0m  [01;34mMusic[0m             [01;34mPublic[0m    [01;34mVideos[0m
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Ktot[01;31m[K[01;31m[Ka[m[K[m[Kl 44
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownlo[01;31m[K[01;31m[Ka[m[K[m[Kds[0m
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 ex[01;31m[K[01;31m[Ka[m[K[m[Kmples.desktop
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTempl[01;31m[K[01;31m[Ka[m[K[m[Ktes[0m
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Ktot[01;31m[K[01;31m[Ka[m[K[m[Kl 44
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownlo[01;31m[K[01;31m[Ka[m[K[m[Kds[0m
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTempl[01;31m[K[01;31m[Ka[m[K[m[Ktes[0m
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 ex[01;31m[K[01;31m[Ka[m[K[m[Kmples.desktop
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Ktot[01;31m[K[01;31m[Ka[m[K[m[Kl 44
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 ex[01;31m[K[01;31m[Ka[m[K[m[Kmples.desktop
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTempl[01;31m[K[01;31m[Ka[m[K[m[Ktes[0m
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownlo[01;31m[K[01;31m[Ka[m[K[m[Kds[0m
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls *[01;31m[K[01;31m[Ka[m[K[m[Kb[K[K[K[01;31m[K[01;31m[Ka[m[K[m[Kb* -d
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kls: c[01;31m[K[01;31m[Ka[m[K[m[Knnot [01;31m[K[01;31m[Ka[m[K[m[Kccess '[01;31m[K[01;31m[Ka[m[K[m[Kb*': No such file or directory
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[Ka[m[K[m[Kt > [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[Ka[m[K[m[Kt > [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt[4Pls [01;31m[K[01;31m[Ka[m[K[m[Kb* -d
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[01;31m[K[01;31m[Ka[m[K[m[Kbc.txt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls [01;31m[K[01;31m[Ka[m[K[m[Kb* -d[1P[1P[C[1P -d[C[C[C[K[K[01;31m[K[01;31m[Ka[m[K[m[Kli[01;31m[K[01;31m[Ka[m[K[m[Ks[K[K[K[K[K[K[K[K[K[01;31m[K[01;31m[Ka[m[K[m[Klis[K[01;31m[K[01;31m[Ka[m[K[m[Ks ll = 'ls-l -l[C[C'
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[01;31m[K[01;31m[Ka[m[K[m[Kli[01;31m[K[01;31m[Ka[m[K[m[Ks ll='ls -[01;31m[K[01;31m[Ka[m[K[m[KlF'
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kb[01;31m[K[01;31m[Ka[m[K[m[Ksh: [01;31m[K[01;31m[Ka[m[K[m[Kli[01;31m[K[01;31m[Ka[m[K[m[Ks: =: not found
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kb[01;31m[K[01;31m[Ka[m[K[m[Ksh: [01;31m[K[01;31m[Ka[m[K[m[Kli[01;31m[K[01;31m[Ka[m[K[m[Ks: ls -l: not found
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[Ka[m[K[m[Kt >x[K xyz/y[K[K.tcx[Kx[K[Kx[Kxt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KThom[01;31m[K[01;31m[Ka[m[K[m[Ks
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KThurht  th[01;31m[K[01;31m[Ka[m[K[m[Kyil
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KChn[01;31m[K[01;31m[Ka[m[K[m[Kg   [01;31m[K[01;31m[Ka[m[K[m[Kn[01;31m[K[01;31m[Ka[m[K[m[Kg  g[01;31m[K[01;31m[Ka[m[K[m[Kn[01;31m[K[01;31m[Ka[m[K[m[Kceh  herru y
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ p[01;31m[K[01;31m[Ka[m[K[m[Kste [01;31m[K[01;31m[Ka[m[K[m[Kc[Kbc.txt xyz.txt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K2 	Thom[01;31m[K[01;31m[Ka[m[K[m[Ks
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K3 	Thurth[01;31m[K[01;31m[Ka[m[K[m[Kyil
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K	Ch[01;31m[K[01;31m[Ka[m[K[m[Kng[01;31m[K[01;31m[Ka[m[K[m[Kn[01;31m[K[01;31m[Ka[m[K[m[Kcherry
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ join 4[K56 [K[K [01;31m[K[01;31m[Ka[m[K[m[Kbx[Kc.txt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[Ka[m[K[m[Kt [01;31m[K[01;31m[Ka[m[K[m[Kb x[K[Kx[K[K[K> [01;31m[K[01;31m[Ka[m[K[m[Knx[K[Kbc,tr[K[K[K.rxt[K[K[Ktxt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[Ka[m[K[m[Kt > [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt[1@join 5[C[C[C[C[C[C[C[Cp[01;31m[K[01;31m[Ka[m[K[m[Kste [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt xyz.txt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K2 	Thom[01;31m[K[01;31m[Ka[m[K[m[Ks
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K3 	Thurth[01;31m[K[01;31m[Ka[m[K[m[Kyil
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K5	Ch[01;31m[K[01;31m[Ka[m[K[m[Kng[01;31m[K[01;31m[Ka[m[K[m[Kn[01;31m[K[01;31m[Ka[m[K[m[Kcherry
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kls: c[01;31m[K[01;31m[Ka[m[K[m[Knnot [01;31m[K[01;31m[Ka[m[K[m[Kccess '?.txt': No such file or directory
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-rw-r-- 1 s4d2 s4d2   14 Feb  7 09:44 [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[K[01;31m[Ka[m[K[m[K [01;31m[K[01;31m[Ka[m[K[m[Kbx.[K[Kc.txt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[K[01;31m[Ka[m[K[m[K [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt[3Pls -l *.txt?.txtp[01;31m[K[01;31m[Ka[m[K[m[Kste [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt xyz.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pc[01;31m[K[01;31m[Ka[m[K[m[Kt > [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt[1@join 5[C[C[C[C[C[C[C[C[1Pc[01;31m[K[01;31m[Ka[m[K[m[Kt >[C[C[C[C[C[C[C[C[1P [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt[1P[01;31m[K[01;31m[Ka[m[K[m[Kbc.txt[C [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[Ka[m[K[m[Kt  [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt[2@grep [01;31m[K[01;31m[Ka[m[K[m[K[C[C[C[C[C[C[C[C[1P [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt1 [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt[1P [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt[01;31m[K[01;31m[Ka[m[K[m[K [01;31m[K[01;31m[Ka[m[K[m[Kbc.txt[C[C[C[C[1P.txt[1P.txt[1P.txtx.txty.txtz.txt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KThom[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ks
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KThurth[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kyil
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KCh[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kng[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kn[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kcherry
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[K[01;31m[Ka[m[K[m[K,v[Kb [K[Kr[Kt xyz.txt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[K[01;31m[Ka[m[K[m[K,t xyz.txt[1P xyz.txt[1P xyz.txt[C[C[C[C[1P.txt[1P.txt[1P.txt*.txt
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KScript st[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Krted on Thursd[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ky 07 Febru[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kry 2019 09:39:42 AM IST
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[K
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K7Feb.txt  [0m[01;34mDocuments[0m  ex[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kmples.desktop  [01;34mPictures[0m  [01;34mTempl[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ktes[0m
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[01;34mDesktop[0m   [01;34mDownlo[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kds[0m  [01;34mMusic[0m             [01;34mPublic[0m    [01;34mVideos[0m
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Ktot[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kl 44
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownlo[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kds[0m
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 ex[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kmples.desktop
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTempl[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ktes[0m
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Ktot[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kl 44
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownlo[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kds[0m
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTempl[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ktes[0m
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 ex[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kmples.desktop
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Ktot[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kl 44
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:36 ex[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kmples.desktop
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mTempl[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ktes[0m
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kdrwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:38 [01;34mDownlo[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kds[0m
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls *[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kb[K[K[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kb* -d
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kls: c[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Knnot [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kccess '[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kb*': No such file or directory
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kt > [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kt > [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt[4Pls [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kb* -d
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kb* -d[1P[1P[C[1P -d[C[C[C[K[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kli[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ks[K[K[K[K[K[K[K[K[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Klis[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ks ll = 'ls-l -l[C[C'
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kli[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ks ll='ls -[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[KlF'
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kb[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ksh: [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kli[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ks: =: not found
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kb[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ksh: [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kli[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ks: ls -l: not found
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kt >x[K xyz/y[K[K.tcx[Kx[K[Kx[Kxt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KThom[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ks
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KThurht  th[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kyil
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KChn[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kg   [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kn[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kg  g[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kn[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kceh  herru y
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ p[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kste [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kc[Kbc.txt xyz.txt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K2 	Thom[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ks
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K3 	Thurth[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kyil
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K	Ch[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kng[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kn[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kcherry
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ join 4[K56 [K[K [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbx[Kc.txt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kt [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kb x[K[Kx[K[K[K> [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Knx[K[Kbc,tr[K[K[K.rxt[K[K[Ktxt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kt > [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt[1@join 5[C[C[C[C[C[C[C[Cp[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kste [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt xyz.txt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K2 	Thom[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Ks
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K3 	Thurth[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kyil
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K5	Ch[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kng[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kn[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kcherry
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[Kls: c[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Knnot [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kccess '?.txt': No such file or directory
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K-rw-rw-r-- 1 s4d2 s4d2   14 Feb  7 09:44 [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbx.[K[Kc.txt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt[3Pls -l *.txt?.txtp[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kste [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt xyz.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pc[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kt > [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt[1@join 5[C[C[C[C[C[C[C[C[1Pc[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kt >[C[C[C[C[C[C[C[C[1P [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt[1P[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt[C [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ c[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kt  [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt[2@grep [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[C[C[C[C[C[C[C[C[1P [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt1 [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt[1P [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[Kbc.txt[C[C[C[C[1P.txt[1P.txt[1P.txtx.txty.txtz.txt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KThom[01;31m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[m[Ks
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KThurth[01;31m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[m[Kyil
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KCh[01;31m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[m[Kng[01;31m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[m[Kn[01;31m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[m[Kcherry
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K,v[Kb [K[Kr[Kt xyz.txt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep [01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K,t xyz.txt[1P xyz.txt[1P xyz.txt[C[C[C[C[1P.txt[1P.txt[1P.txt*.txt
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[KScript st[01;31m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[m[Krted on Thursd[01;31m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[m[Ky 07 Febru[01;31m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[m[Kry 2019 09:39:42 AM IST
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls[01;31m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[m[K[K
+
+
+
+
+[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K[35m[K7Feb.txt[m[K[36m[K:[m[K7Feb.txt  [0m[01;34mDocuments[0m  ex[01;31m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[m[Kmples.desktop  [01;34mPictures[0m  [01;34mTempl[01;31m[K[01;31m[K[01;31m[K[01;31m[Ka[m[K[m[K[m[K[m
+[35m[Kxyz.txt[m[K[36m[K:[m[KThom[01;31m[Ka[m[Ks
+[35m[Kxyz.txt[m[K[36m[K:[m[KThurth[01;31m[Ka[m[Kyil
+[35m[Kxyz.txt[m[K[36m[K:[m[KCh[01;31m[Ka[m[Kng[01;31m[Ka[m[Kn[01;31m[Ka[m[Kcherry
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ grep a xyz,.[K[K.txt -d[Kc
+3
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ pwd
+/home/s4d2
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cd[K[Kcd DEs[K[Kesktop/
+]0;s4d2@cec-H110M: ~/Desktop[01;32ms4d2@cec-H110M[00m:[01;34m~/Desktop[00m$ cd ..
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ln -s abx.[K[Kc.txt ra[K[Kone
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls
+7Feb.txt  [0m[01;34mDesktop[0m    [01;34mDownloads[0m         [01;34mMusic[0m  [01;34mPictures[0m  [01;34mTemplates[0m  xyz.txt
+abc.txt   [01;34mDocuments[0m  examples.desktop  [01;36mone[0m    [01;34mPublic[0m    [01;34mVideos[0m
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls- [K[K -l
+total 88
+-rw-rw-r-- 1 s4d2 s4d2 36864 Feb  7 09:47 7Feb.txt
+-rw-rw-r-- 1 s4d2 s4d2    14 Feb  7 09:44 abc.txt
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mDownloads[0m
+-rw-r--r-- 1 s4d2 s4d2  8980 Feb  7 09:36 examples.desktop
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mMusic[0m
+lrwxrwxrwx 1 s4d2 s4d2     7 Feb  7 09:48 [01;36mone[0m -> abc.txt
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mVideos[0m
+-rw-rw-r-- 1 s4d2 s4d2    45 Feb  7 09:43 xyz.txt
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat onc[Ke
+1 
+2 
+3 
+4 
+5
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ rm one
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ l[Kls =;[K[K-l
+total 92
+-rw-rw-r-- 1 s4d2 s4d2 40960 Feb  7 09:48 7Feb.txt
+-rw-rw-r-- 1 s4d2 s4d2    14 Feb  7 09:44 abc.txt
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mDownloads[0m
+-rw-r--r-- 1 s4d2 s4d2  8980 Feb  7 09:36 examples.desktop
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mVideos[0m
+-rw-rw-r-- 1 s4d2 s4d2    45 Feb  7 09:43 xyz.txt
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ m,[Kan cat
+[?1049h[?1h=
+CAT(1)                           User Commands                          CAT(1)[m
+[m
+[1mNAME[0m[m
+       cat - concatenate files and print on the standard output[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcat[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Concatenate FILE(s) to standard output.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       [1m-A[0m, [1m--show-all[0m[m
+              equivalent to [1m-vET[0m[m
+[m
+       [1m-b[0m, [1m--number-nonblank[0m[m
+              number nonempty output lines, overrides [1m-n[0m[m
+[m
+       [1m-e[0m     equivalent to [1m-vE[0m[m
+[m
+       [1m-E[0m, [1m--show-ends[0m[m
+              display $ at end of each line[m
+[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 2 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-n[0m, [1m--number[0m[m
+[7m Manual page cat(1) line 3 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              number all output lines[m
+[7m Manual page cat(1) line 4 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-s[0m, [1m--squeeze-blank[0m[m
+[7m Manual page cat(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              suppress repeated empty output lines[m
+[7m Manual page cat(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-t[0m     equivalent to [1m-vT[0m[m
+[7m Manual page cat(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-T[0m, [1m--show-tabs[0m[m
+[7m Manual page cat(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              display TAB characters as ^I[m
+[7m Manual page cat(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 13 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       With no FILE, or when FILE is -, read standard input.[m
+[24;1H
+[K[7m Manual page cat(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cat(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       Concatenate FILE(s) to standard output.[m
+[24;1H
+[K[7m Manual page cat(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[1mDESCRIPTION[0m[m
+[24;1H
+[K[7m Manual page cat(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cat(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       [1mcat[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[24;1H
+[K[7m Manual page cat(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[1mSYNOPSIS[0m[m
+[24;1H
+[K[7m Manual page cat(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page cat(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       cat - concatenate files and print on the standard output[m
+[24;1H
+[K[7m Manual page cat(1) line 4 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-s[0m, [1m--squeeze-blank[0m[m
+[7m Manual page cat(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              suppress repeated empty output lines[m
+[7m Manual page cat(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-t[0m     equivalent to [1m-vT[0m[m
+[7m Manual page cat(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-T[0m, [1m--show-tabs[0m[m
+[7m Manual page cat(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              display TAB characters as ^I[m
+[7m Manual page cat(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 13 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-u[0m     (ignored)[m
+[7m Manual page cat(1) line 14 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 15 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-v[0m, [1m--show-nonprinting[0m[m
+[7m Manual page cat(1) line 16 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              use ^ and M- notation, except for LFD and TAB[m
+[7m Manual page cat(1) line 17 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 18 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--help[0m display this help and exit[m
+[7m Manual page cat(1) line 19 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 20 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--version[0m[m
+[7m Manual page cat(1) line 21 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              output version information and exit[m
+[7m Manual page cat(1) line 22 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 23 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 24 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       cat f - g[m
+[7m Manual page cat(1) line 25 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Output f's contents, then standard input, then g's contents.[m
+[7m Manual page cat(1) line 26 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 27 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       cat    Copy standard input to standard output.[m
+[7m Manual page cat(1) line 28 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 29 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mAUTHOR[0m[m
+[7m Manual page cat(1) line 30 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Written by Torbjorn Granlund and Richard M. Stallman.[m
+[7m Manual page cat(1) line 31 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 32 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page cat(1) line 33 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       GNU coreutils online help: <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page cat(1) line 34 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Report cat translation bugs to <http://translationproject.org/team/>[m
+[7m Manual page cat(1) line 35 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 36 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mCOPYRIGHT[0m[m
+[7m Manual page cat(1) line 37 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Copyright  ©  2016  Free Software Foundation, Inc.  License GPLv3+: GNU[m
+[7m Manual page cat(1) line 38 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       GPL version 3 or later <http://gnu.org/licenses/gpl.html>.[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       This is free software: you are free  to  change  and  redistribute  it.[m
+[7m Manual page cat(1) line 40 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page cat(1) line 41 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 42 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page cat(1) line 43 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1mtac[0m(1)[m
+[7m Manual page cat(1) line 44 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 45 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Full documentation at: <http://www.gnu.org/software/coreutils/cat>[m
+[7m Manual page cat(1) line 46 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       or available locally via: info '(coreutils) cat invocation'[m
+[7m Manual page cat(1) line 47 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page cat(1) line 48 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[KGNU coreutils 8.25               February 2017                          CAT(1)[m
+[7m Manual page cat(1) line 49 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page cat(1) line 49/71 (END) (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ alias ll=’ls -al’
+bash: alias: -al’: not found
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ bash
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ a;o[K[Klias ll= 'ls=[K-[K -l'
+bash: alias: ls -l: not found
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ alias ll= 'ls -l'[1P
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ lss[K[Kl
+total 104
+-rw-rw-r-- 1 s4d2 s4d2 53248 Feb  7 09:50 7Feb.txt
+-rw-rw-r-- 1 s4d2 s4d2    14 Feb  7 09:44 abc.txt
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mDownloads[0m
+-rw-r--r-- 1 s4d2 s4d2  8980 Feb  7 09:36 examples.desktop
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2  4096 Feb  7 09:38 [01;34mVideos[0m
+-rw-rw-r-- 1 s4d2 s4d2    45 Feb  7 09:43 xyz.txt
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ join abc.txt c[Kxyz,t[K[K.txt
+join: xyz.txt:4: is not sorted: House
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ join abc.txt xyz.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kd[Kcsa[K[Kat xyz.txt
+Ritty
+Thomas
+Thurthayil
+House
+Changanacherry
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat xyz.txt[C xyz.txt> xyz.txt
+1 Rot  ott   itty
+2 RIth   ut  ithu
+4 5 4 3 Rp p oshin
+4 Sachin
+56  Sayooj
+^C
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat > xyz.txt[2Pxyz.txt[9@join abc.tx[C[C[C[C[C[C[C[C[C
+1  Ritty
+2  Rithu
+3  Roshin
+4  Sachin
+5 Sayooj
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat > wine.txt
+^^?Red Beaunes France
+White Reisling Germany
+Red Riocha Spain
+
+^C
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat > wine.txt[1Pe.txt[1Pe.txt[1Pe.txtjoin abc.txt xyz.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pcat > e.txt[1P.txtr.txte.txt[1P.txt[1P.txtg.txtr.txte.txta.txt[1P.txt[1P.txt[1P.txt[1P.txtr.txte.txtv.txti.txte.txtw.txts.txt
+Beaunes Great!
+Reisling Terrible!
+Riocha Meh
+^C
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ -1 2 -2 1 join wine[Ke.tr[Kxt reviews.txt
+-1: command not found
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ -1 2 -2 1 join wine.txt reviews.txt[1P[1P[1P[1P[1@j[1@o[1@i[1@n[1@ 
+Beaunes Red France Great!
+Reisling White Germany Terrible!
+Riocha Red Spain Meh
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ join -1 2 -2 -1 <(sort wine.txt
+> ^C
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ join -1 2 -2 -1 <(sort wine.txt) <(sort reviews.txt)
+join: invalid field number: ‘-1’
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ join -1 2 -2 -1 <(sort wine.txt) <(sort reviews.txt)[1P
+Beaunes Red France Great!
+join: /dev/fd/63:4: is not sorted: White Reisling Germany
+Riocha Red Spain Meh
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ exit
+exit
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat abc.txt xyx.yc[K[Ktcy[K[Kcy[K[Kxt > aaa[K[K.txt
+cat: xyx.txt: No such file or directory
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat abc.txt xyx.txt > a.txt[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@w[1@o[1P[1@o[1@i[1P[1P[1@i[1@n[1@e[1@.[1@t[1@x[1@t[C[1@ [1@r[1@e[1@v[1@i[1@e[1@w[1@s[1@.[1@t[1@x[1@t[C[1@ 
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cat a.txt
+Red Beaunes France
+White Reisling Germany
+Red Riocha Spain
+
+Beaunes Great!
+Reisling Terrible!
+Riocha Meh
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls
+7Feb.txt  [0m[01;34mDesktop[0m    examples.desktop  [01;34mPublic[0m       [01;34mVideos[0m
+abc.txt   [01;34mDocuments[0m  [01;34mMusic[0m             reviews.txt  wine.txt
+a.txt     [01;34mDownloads[0m  [01;34mPictures[0m          [01;34mTemplates[0m    xyz.txt
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ mv[K[Kmkdir cs232
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ mv 7Feb.txt [K CS[K[Kcs2312[K[K2
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ cd [K[K[Kls -R
+.:
+abc.txt  [0m[01;34mDesktop[0m    examples.desktop  [01;34mPublic[0m       [01;34mVideos[0m
+a.txt    [01;34mDocuments[0m  [01;34mMusic[0m             reviews.txt  wine.txt
+[01;34mcs232[0m    [01;34mDownloads[0m  [01;34mPictures[0m          [01;34mTemplates[0m    xyz.txt
+
+./cs232:
+7Feb.txt
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ CD[K[Kcd cs232/
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ ls
+7Feb.txt
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git init
+Initialized empty Git repository in /home/s4d2/cs232/.git/
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git pull https://github.com/ceccs17d42/cs232
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)   [K
+remote: Counting objects:  66% (2/3)   [K
+remote: Counting objects: 100% (3/3)   [K
+remote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   
+Unpacking objects:  66% (2/3)   
+Unpacking objects: 100% (3/3)   
+Unpacking objects: 100% (3/3), done.
+From https://github.com/ceccs17d42/cs232
+ * branch            HEAD       -> FETCH_HEAD
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git onf[K[Kc[K[Kconfig --usernamer [K[K[K[K[K[K[K[K[K[Kgki[K[Klobal ua[Kser.name "ceccs17d42"
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git commit -m "ceccsd[K[K[K[K[K[K7y[Kth G[KG[KFEb[K[Kebruary 2019"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 's4d2@cec-H110M.(none)')
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git commit -m "7th February 2019"nfig --global user.name "ceccs17d42"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kemail "rittyt#[K@gma[K[K[Kyahoo.com"
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git config --global user.email "rittyt@yahoo.com"[1P "rittyt@yahoo.com"[1P "rittyt@yahoo.com"[1P "rittyt@yahoo.com"[1P "rittyt@yahoo.com"[1P "rittyt@yahoo.com"n "rittyt@yahoo.com"a "rittyt@yahoo.com"m "rittyt@yahoo.com"e "rittyt@yahoo.com"[15Pmmit -m "7th February 2019"nfig --global user.name "ceccs17d42"
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git config --global user.name "ceccs17d42"rittyt@yahoo.com"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pmmit -m "7th February 2019"
+On branch master
+Untracked files:
+	[31m7Feb.txt[m
+
+nothing added to commit but untracked files present
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git rempte[K[K[Kote add pro[K[K[Korigin https://github.com/ceccs17d42/cs23 
+2
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git push -u origin master
+Username for 'https://github.com': ceccs17d42
+Password for 'https://ceccs17d42@github.com': 
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git push -u origin master\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ceccs17d42
+Password for 'https://ceccs17d42@github.com': 
+Everything up-to-date
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git add FEb[K[Keb7.txt
+fatal: pathspec 'Feb7.txt' did not match any files
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git add -a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git add -a[KA
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ git add -AaFeb7.txt[8Ppush
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': r ceccs17d42
+Password for 'https://ceccs17d42@github.com': 
+Everything up-to-date
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ mv [K FEb[K[Ke7[Kb7.td[Kxt ceccs17d42..[K7.2.2019.r[Ktxt
+mv: cannot stat 'Feb7.txt': No such file or directory
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ ls
+7Feb.txt  README.md
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ lsmv Feb7.txt ceccs17d42.7.2.2019.txt[1P[1P[1P[C[1@F[1@e[1@b
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ ls
+ceccs17d42.7.2.2019.txt  README.md
+]0;s4d2@cec-H110M: ~/cs232[01;32ms4d2@cec-H110M[00m:[01;34m~/cs232[00m$ exit
+exit
+
+Script done on Thursday 07 February 2019 11:14:19 AM IST
