@@ -1,0 +1,36 @@
+s4d2@cec-H110M:~$ nano /etc/network/interfaces
+s4d2@cec-H110M:~$ sudo nano /etc/network/interfaces
+[sudo] password for s4d2: 
+s4d2 is not in the sudoers file.  This incident will be reported.
+s4d2@cec-H110M:~$ su - cec
+Password: 
+cec@cec-H110M:~$ sudo nano /etc/network/interfaces
+[sudo] password for cec: 
+cec@cec-H110M:~$ sudo nano /etc/resolv.conf
+cec@cec-H110M:~$ if config
+> ^C
+cec@cec-H110M:~$ ifconfig
+Command 'ifconfig' is available in '/sbin/ifconfig'
+The command could not be located because '/sbin' is not included in the PATH environment variable.
+This is most likely caused by the lack of administrative privileges associated with your user account.
+ifconfig: command not found
+cec@cec-H110M:~$ nano /etc/resolv.conf
+cec@cec-H110M:~$ sudo nano /etc/resolv.conf
+cec@cec-H110M:~$ sudo nano /etc/resolv.conf
+cec@cec-H110M:~$ /sbin/ifconfig 
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:103310 errors:0 dropped:17 overruns:0 frame:0
+          TX packets:28831 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:68367409 (68.3 MB)  TX bytes:2962511 (2.9 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:504 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:504 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:39016 (39.0 KB)  TX bytes:39016 (39.0 KB)
+
