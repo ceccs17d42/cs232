@@ -1,0 +1,40 @@
+Script started on Thursday 28 March 2019 09:41:55 AM IST
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ sh[K[Ksh sftpp[K.sh
+usage: sftp [-1246aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ sftp cs17d42@192.168/.[K[K.,0[K[K[K.0.12[K[K2o[K[K30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+Permission denied, please try again.
+cs17d42@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+cs232               examples.desktop    xyz.txt             
+sftp> put cs232.[K[K[K[K[K[K[K[K[Kcd cs232[K2
+sftp> ls
+sftp.sh   
+sftp> cs[K[Klscd cs232[7Gls[K[Kput cs232/s1.s2[K[K[Ks2.sh
+Uploading cs232/s1s2.sh to /home/cs17d42/cs232/s1s2.sh
+cs232/s1s2.sh                                   0%    0     0.0KB/s   --:-- ETAcs232/s1s2.sh                                 100% 1397     1.4KB/s   00:00    
+sftp> ls
+s1s2.sh   sftp.sh   
+sftp> cd ..
+sftp> ls
+cs232               examples.desktop    xyz.txt             
+sftp> get xyz,tdt[K[K[K[K.txt
+Fetching /home/cs17d42/xyz.txt to xyz.txt
+/home/cs17d42/xyz.txt                           0%    0     0.0KB/s   --:-- ETA/home/cs17d42/xyz.txt                         100%   43     0.0KB/s   00:00    
+sftp> quit
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 28 March 2019 09:50:01 AM IST
