@@ -1,0 +1,2417 @@
+Script started on Thursday 28 March 2019 09:50:06 AM IST
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ssh cs17d42.[K
+ssh: Could not resolve hostname cs17d42: Temporary failure in name resolution
+
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ @ssh cs17d42@192.169[K8.0.2[K30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+$ ls
+cs232  examples.desktop  xyz.txt
+$ rm  cd cs232
+$ ls  
+s1s2.sh  sftp.sh
+
+$ ls
+s1s2.sh  sftp.sh
+
+$ ls
+s1s2.sh  sftp.sh
+$ cd ..
+$ ls
+cs232  examples.desktop  xyz.txt
+$ scp cs17d         cd cs232
+$ c scp cs17d42@192.168.0.20  30 : home.     /home.                             wine,.  .txt cs17d42. @192,.  ., 18 68.0^[.   .20  30:/home// cs17d42/cs232
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+wine.txt: No such file or directory
+$ ^[[A^[[B \        cd..   ..
+$ ;s  ls
+cs232  examples.desktop  xyz.txt
+$ scp home/s4d2/cs232/cec., txt cs17d      cs17d42@192.168.0.30:/home/cs17d42/cs232^[[D     2
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+home/s4d2/cs232/cec.txt: No such file or directory
+$ scp /cs232/cec.txt  cs17d42@192.168.0.30:/home/cs17d42/cs232 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+/cs232/cec.txt: No such file or directory
+$ ls
+cs232  examples.desktop  xyz.txt
+$ scp xyz.txt  cs17d42@192.168.0.30:/home/cs17d42/cs232 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+
+xyz.txt                                         0%    0     0.0KB/s   --:-- ETA
+xyz.txt                                       100%   43     0.0KB/s   00:00    
+$ ls
+cs232  examples.desktop  xyz.txt
+$ cs232
+-sh: 25: cs232: not found
+$ cd cs232
+$ ls
+s1s2.sh  sftp.sh  xyz.txt
+$ rm e xyx zs . .td xt
+$ ;ls   ; ls
+s1s2.sh  sftp.sh
+$ scp wine.txt  cs17d42@192.168.0.30:/home/cs17d42/cs232 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+Permission denied, please try again.
+
+cs17d42@192.168.0.30's password: 
+wine.txt: No such file or directory
+$ cd ..
+$ ;s
+-sh: 32: Syntax error: ";" unexpected
+$ ls
+cs232  examples.desktop  xyz.txt
+$ ^[[A    scp wint e.txt  cs17d42@192.168.0.30:/home/cs17d42/cs232 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+wine.txt: No such file or directory
+$ man scp
+[?1049h[?1h=
+SCP(1)                    BSD General Commands Manual                   SCP(1)[m
+[m
+[1mNAME[0m[m
+     [1mscp[0m — secure copy (remote file copy program)[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mscp[0m [[1m-12346BCpqrv[0m] [[1m-c[0m [4mcipher[24m] [[1m-F[0m [4mssh_config[24m] [[1m-i[0m [4midentity_file[24m][m
+         [[1m-l[0m [4mlimit[24m] [[1m-o[0m [4mssh_option[24m] [[1m-P[0m [4mport[24m] [[1m-S[0m [4mprogram[24m][m
+         [[[4muser[24m@][4mhost1[24m:][4mfile1[24m [4m...[24m [[[4muser[24m@][4mhost2[24m:][4mfile2[24m[m
+[m
+[1mDESCRIPTION[0m[m
+     [1mscp[0m copies files between hosts on a network.  It uses ssh(1) for data[m
+     transfer, and uses the same authentication and provides the same security[m
+     as ssh(1).  [1mscp[0m will ask for passwords or passphrases if they are needed[m
+     for authentication.[m
+[m
+     File names may contain a user and host specification to indicate that the[m
+     file is to be copied to/from that host.  Local file names can be made[m
+     explicit using absolute or relative pathnames to avoid [1mscp[0m treating file[m
+     names containing ‘:’ as host specifiers.  Copies between two remote hosts[m
+     are also permitted.[m
+[m
+     The options are as follows:[m
+[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KFF
+[K...skipping...
+             Name of [4mprogram[24m to use for the encrypted connection.  The program[m
+             must understand ssh(1) options.[m
+[m
+     [1m-v[0m      Verbose mode.  Causes [1mscp[0m and ssh(1) to print debugging messages[m
+             about their progress.  This is helpful in debugging connection,[m
+             authentication, and configuration problems.[m
+[m
+[1mEXIT[0m [1mSTATUS[0m[m
+     The [1mscp[0m utility exits 0 on success, and >0 if an error occurs.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+     sftp(1), ssh(1), ssh-add(1), ssh-agent(1), ssh-keygen(1), ssh_config(5),[m
+     sshd(8)[m
+[m
+[1mHISTORY[0m[m
+     [1mscp[0m is based on the rcp program in BSD source code from the Regents of[m
+     the University of California.[m
+[m
+[1mAUTHORS[0m[m
+     Timo Rinne <[4mtri@iki.fi[24m>[m
+     Tatu Ylonen <[4mylo@cs.hut.fi[24m>[m
+[m
+BSD                           September 25, 2015                           BSD[m
+[7m Manual page scp(1) line 144/166 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1m-S[0m [4mprogram[24m[m
+[24;1H
+[K[7m Manual page scp(1) line 143/166 99% (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page scp(1) line 142/166 99% (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM             bolic links encountered in the tree traversal.[m
+[24;1H
+[K[7m Manual page scp(1) line 141/166 98% (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1m-r[0m      Recursively copy entire directories.  Note that [1mscp[0m follows sym‐[m
+[24;1H
+[K[7m Manual page scp(1) line 140/166 97% (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page scp(1) line 139/166 97% (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM             diagnostic messages from ssh(1).[m
+[24;1H
+[K[7m Manual page scp(1) line 138/166 97% (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l$ ls
+cs232  examples.desktop  xyz.txt
+$ scp cs17d42@192.169 8.0.30:wine, , .txt / /home. /s4d2
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+scp: wine.txt: No such file or directory
+$ quit
+-sh: 37: quit: not found
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ exit
+exit
+
+Script started on Thursday 28 March 2019 10:57:38 AM IST
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ssj[Kh ceccc[K[K[K[Kc[K[Kcs17d42@192.169.0[K[K[K8.0.40[K[K23[K[K30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 10:22:27 2019 from 192.168.0.189
+
+$ scp     ;s
+-sh: 1: Syntax error: ";" unexpected
+$ ls
+cs232  examples.desktop  xyz.txt
+$ scp xyx xz  z.y tc xt cs17d42@192.168.0.2=  30: /home./  . /cs17d42/cs232
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+scp: .: not a regular file
+$ scp xyz.txt  cs17d42@192.168.0.30:/home/cs17d42/cs232 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+
+xyz.txt                                         0%    0     0.0KB/s   --:-- ETA
+xyz.txt                                       100%   43     0.0KB/s   00:00    
+$ ls
+cs232  examples.desktop  xyz.txt
+$ cd cws  s232
+$ l;s  s
+s1s2.sh  sftp.sh  xyz.txt
+$ ^^?   scp cs17d42@192.168.0.30.edu:wine.txt /home/cs17d42/cs232
+ssh: Could not resolve hostname 192.168.0.30.edu: Name or service not known
+
+$  scp cs17d42@192.168.0.30:wine.txt /home/cs17d42/cs232
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+scp: wine.txt: No such file or directory
+$  scp cs17d42@192.168.0.30:wine.txt/home/cs17d42/cs232
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+$  scp cs17d42@192.168.0.30:xyz.txt /home/s4d2/cs232
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+/home/s4d2/cs232: No such file or directory
+$  scp cs17d42@192.168.0.30:xyz.txt /home/s4d2/cs232          c 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+/home//xyz.txt: Permission denied
+$ ^[[A     scp cs17d42@192.168.0.30:xyz.txt /home/s4d2/cs232          cs  s cs17d42/cs232
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+
+xyz.txt                                         0%    0     0.0KB/s   --:-- ETA
+xyz.txt                                       100%   43     0.0KB/s   00:00    
+$ ls
+s1s2.sh  sftp.sh  xyz.txt
+$ cd ... 
+$ ls
+cs232  examples.desktop  xyz.txt
+$ x exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ sudo at[Kpt=[K-get install rsync
+[sudo] password for s4d2: 
+s4d2 is not in the sudoers file.  This incident will be reported.
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ su -cec cec
+Password: 
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudp[K[Kdo apt-=[Kget ions[K[K[Knn[Kstall r[Krsn[Kync
+[sudo] password for cec: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+rsync is already the newest version (3.1.1-3ubuntu1.2).
+0 upgraded, 0 newly installed, 0 to remove and 32 not upgraded.
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ exit
+logout
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ rsyncv[K[K[K[K[K[Kman rsync
+[?1049h[?1h=
+rsync(1)                                                              rsync(1)[m
+[m
+[1mNAME[0m[m
+       rsync - a fast, versatile, remote (and local) file-copying tool[m
+[m
+[1mSYNOPSIS[0m[m
+       Local:  rsync [OPTION...] SRC... [DEST][m
+[m
+       Access via remote shell:[m
+         Pull: rsync [OPTION...] [USER@]HOST:SRC... [DEST][m
+         Push: rsync [OPTION...] SRC... [USER@]HOST:DEST[m
+[m
+       Access via rsync daemon:[m
+         Pull: rsync [OPTION...] [USER@]HOST::SRC... [DEST][m
+               rsync [OPTION...] rsync://[USER@]HOST[:PORT]/SRC... [DEST][m
+         Push: rsync [OPTION...] SRC... [USER@]HOST::DEST[m
+               rsync [OPTION...] SRC... rsync://[USER@]HOST[:PORT]/DEST[m
+[m
+       Usages with just one SRC arg and no DEST arg will list the source files[m
+       instead of copying.[m
+[m
+[1mDESCRIPTION[0m[m
+       Rsync is a fast and extraordinarily versatile file  copying  tool.   It[m
+[7m Manual page rsync(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page rsync(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page rsync(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page rsync(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       can  copy  locally,  to/from  another  host  over  any remote shell, or[m
+[7m Manual page rsync(1) line 2 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       to/from a remote rsync daemon.  It offers a  large  number  of  options[m
+[7m Manual page rsync(1) line 3 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       that  control  every  aspect  of  its behavior and permit very flexible[m
+[7m Manual page rsync(1) line 4 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       specification of the set of files to be copied.  It is famous  for  its[m
+[7m Manual page rsync(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       delta-transfer  algorithm,  which  reduces the amount of data sent over[m
+[7m Manual page rsync(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the network by sending only the differences between  the  source  files[m
+[7m Manual page rsync(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       and  the  existing  files in the destination.  Rsync is widely used for[m
+[7m Manual page rsync(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       backups and mirroring and as an improved copy command for everyday use.[m
+[7m Manual page rsync(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Rsync finds files that need to be transferred  using  a  "quick  check"[m
+[7m Manual page rsync(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       algorithm  (by  default) that looks for files that have changed in size[m
+[7m Manual page rsync(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       or  in  last-modified  time.   Any  changes  in  the  other   preserved[m
+[7m Manual page rsync(1) line 13 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       attributes  (as  requested by options) are made on the destination file[m
+[7m Manual page rsync(1) line 14 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       directly when the quick check indicates that the file’s data  does  not[m
+[7m Manual page rsync(1) line 15 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       need to be updated.[m
+[7m Manual page rsync(1) line 16 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 17 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Some of the additional features of rsync are:[m
+[7m Manual page rsync(1) line 18 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 19 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      support  for copying links, devices, owners, groups, and permis‐[m
+[7m Manual page rsync(1) line 20 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              sions[m
+[7m Manual page rsync(1) line 21 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 22 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      exclude and exclude-from options similar to GNU tar[m
+[7m Manual page rsync(1) line 23 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 24 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      a CVS exclude mode for ignoring the same files  that  CVS  would[m
+[7m Manual page rsync(1) line 25 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       can  copy  locally,  to/from  another  host  over  any remote shell, or[m
+[24;1H
+[K[7m Manual page rsync(1) line 24 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       Rsync is a fast and extraordinarily versatile file  copying  tool.   It[m
+[24;1H
+[K[7m Manual page rsync(1) line 23 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[1mDESCRIPTION[0m[m
+[24;1H
+[K[7m Manual page rsync(1) line 22 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      exclude and exclude-from options similar to GNU tar[m
+[7m Manual page rsync(1) line 23 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 24 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      a CVS exclude mode for ignoring the same files  that  CVS  would[m
+[7m Manual page rsync(1) line 25 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              ignore[m
+[7m Manual page rsync(1) line 26 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 27 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      can use any transparent remote shell, including ssh or rsh[m
+[7m Manual page rsync(1) line 28 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 29 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      does not require super-user privileges[m
+[7m Manual page rsync(1) line 30 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 31 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      pipelining of file transfers to minimize latency costs[m
+[7m Manual page rsync(1) line 32 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 33 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      support  for anonymous or authenticated rsync daemons (ideal for[m
+[7m Manual page rsync(1) line 34 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              mirroring)[m
+[7m Manual page rsync(1) line 35 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 36 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mGENERAL[0m[m
+[7m Manual page rsync(1) line 37 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Rsync copies files either to or from a remote host, or locally  on  the[m
+[7m Manual page rsync(1) line 38 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       current  host  (it  does  not  support copying files between two remote[m
+[7m Manual page rsync(1) line 39 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       hosts).[m
+[7m Manual page rsync(1) line 40 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page rsync(1) line 39 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       need to be updated.[m
+[24;1H
+[K[7m Manual page rsync(1) line 38 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       directly when the quick check indicates that the file’s data  does  not[m
+[24;1H
+[K[7m Manual page rsync(1) line 37 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Rsync copies files either to or from a remote host, or locally  on  the[m
+[7m Manual page rsync(1) line 38 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       current  host  (it  does  not  support copying files between two remote[m
+[7m Manual page rsync(1) line 39 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       hosts).[m
+[7m Manual page rsync(1) line 40 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 41 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       There are two different ways for rsync  to  contact  a  remote  system:[m
+[7m Manual page rsync(1) line 42 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       using  a  remote-shell program as the transport (such as ssh or rsh) or[m
+[7m Manual page rsync(1) line 43 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       contacting an rsync daemon directly via TCP.  The  remote-shell  trans‐[m
+[7m Manual page rsync(1) line 44 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       port  is used whenever the source or destination path contains a single[m
+[7m Manual page rsync(1) line 45 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       colon (:) separator after a host specification.   Contacting  an  rsync[m
+[7m Manual page rsync(1) line 46 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       o      exclude and exclude-from options similar to GNU tar[m
+[24;1H
+[K[7m Manual page rsync(1) line 45 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page rsync(1) line 44 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM              sions[m
+[24;1H
+[K[7m Manual page rsync(1) line 43 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       contacting an rsync daemon directly via TCP.  The  remote-shell  trans‐[m
+[7m Manual page rsync(1) line 44 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       port  is used whenever the source or destination path contains a single[m
+[7m Manual page rsync(1) line 45 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       colon (:) separator after a host specification.   Contacting  an  rsync[m
+[7m Manual page rsync(1) line 46 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       daemon  directly happens when the source or destination path contains a[m
+[7m Manual page rsync(1) line 47 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       double colon (::) separator after a  host  specification,  OR  when  an[m
+[7m Manual page rsync(1) line 48 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       rsync://  URL  is  specified (see also the "USING RSYNC-DAEMON FEATURES[m
+[7m Manual page rsync(1) line 49 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       VIA A REMOTE-SHELL CONNECTION" section for an exception to this  latter[m
+[7m Manual page rsync(1) line 50 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       rule).[m
+[7m Manual page rsync(1) line 51 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 52 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       As a special case, if a single source arg is specified without a desti‐[m
+[7m Manual page rsync(1) line 53 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       nation, the files are listed in an output format similar to "ls -l".[m
+[7m Manual page rsync(1) line 54 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 55 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       As expected, if neither the source or destination path specify a remote[m
+[7m Manual page rsync(1) line 56 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       host, the copy occurs locally (see also the [1m--list-only[0m option).[m
+[7m Manual page rsync(1) line 57 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 58 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Rsync  refers  to the local side as the "client" and the remote side as[m
+[7m Manual page rsync(1) line 59 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the "server".  Don’t confuse "server" with an rsync daemon -- a  daemon[m
+[7m Manual page rsync(1) line 60 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       is  always  a  server,  but  a  server  can  be  either  a  daemon or a[m
+[7m Manual page rsync(1) line 61 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       remote-shell spawned process.[m
+[7m Manual page rsync(1) line 62 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 63 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mSETUP[0m[m
+[7m Manual page rsync(1) line 64 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       See the file README for installation instructions.[m
+[7m Manual page rsync(1) line 65 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 66 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Once installed, you can use rsync to any machine that  you  can  access[m
+[7m Manual page rsync(1) line 67 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       via a remote shell (as well as some that you can access using the rsync[m
+[7m Manual page rsync(1) line 68 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       daemon-mode protocol).  For remote transfers, a modern rsync  uses  ssh[m
+[7m Manual page rsync(1) line 69 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       for  its  communications, but it may have been configured to use a dif‐[m
+[7m Manual page rsync(1) line 70 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ferent remote shell by default, such as rsh or remsh.[m
+[7m Manual page rsync(1) line 71 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 72 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       You can also specify any remote shell you like, either by using the  [1m-e[0m[m
+[7m Manual page rsync(1) line 73 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       command line option, or by setting the RSYNC_RSH environment variable.[m
+[7m Manual page rsync(1) line 74 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 75 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Note  that  rsync  must be installed on both the source and destination[m
+[7m Manual page rsync(1) line 76 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       machines.[m
+[7m Manual page rsync(1) line 77 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 78 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mUSAGE[0m[m
+[7m Manual page rsync(1) line 79 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       You use rsync in the same way you use rcp. You must  specify  a  source[m
+[7m Manual page rsync(1) line 80 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       and a destination, one of which may be remote.[m
+[7m Manual page rsync(1) line 81 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 82 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Perhaps the best way to explain the syntax is with some examples:[m
+[7m Manual page rsync(1) line 83 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 84 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -t *.c foo:src/[m
+[7m Manual page rsync(1) line 85 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 86 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       This would transfer all files matching the pattern *.c from the current[m
+[7m Manual page rsync(1) line 87 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       directory to the directory src on the machine foo. If any of the  files[m
+[7m Manual page rsync(1) line 88 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       already  exist on the remote system then the rsync remote-update proto‐[m
+[7m Manual page rsync(1) line 89 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       col is used to update the file by sending only the differences  in  the[m
+[7m Manual page rsync(1) line 90 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       data.   Note  that  the expansion of wildcards on the commandline (*.c)[m
+[7m Manual page rsync(1) line 91 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       into a list of files is handled by the shell before it runs  rsync  and[m
+[7m Manual page rsync(1) line 92 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       not  by  rsync  itself  (exactly the same as all other posix-style pro‐[m
+[7m Manual page rsync(1) line 93 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       grams).[m
+[7m Manual page rsync(1) line 94 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 95 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -avz foo:src/bar /data/tmp[m
+[7m Manual page rsync(1) line 96 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 97 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       This would recursively transfer all files from the directory src/bar on[m
+[7m Manual page rsync(1) line 98 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the  machine foo into the /data/tmp/bar directory on the local machine.[m
+[7m Manual page rsync(1) line 99 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       The files are transferred in "archive" mode, which  ensures  that  sym‐[m
+[7m Manual page rsync(1) line 100 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       bolic  links,  devices,  attributes,  permissions, ownerships, etc. are[m
+[7m Manual page rsync(1) line 101 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       preserved in the transfer.  Additionally, compression will be  used  to[m
+[7m Manual page rsync(1) line 102 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       reduce the size of data portions of the transfer.[m
+[7m Manual page rsync(1) line 103 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 104 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -avz foo:src/bar/ /data/tmp[m
+[7m Manual page rsync(1) line 105 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 106 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       A  trailing slash on the source changes this behavior to avoid creating[m
+[7m Manual page rsync(1) line 107 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       an additional directory level at the destination.  You can think  of  a[m
+[7m Manual page rsync(1) line 108 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       trailing / on a source as meaning "copy the contents of this directory"[m
+[7m Manual page rsync(1) line 109 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       as opposed to "copy the directory by  name",  but  in  both  cases  the[m
+[7m Manual page rsync(1) line 110 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       attributes  of the containing directory are transferred to the contain‐[m
+[7m Manual page rsync(1) line 111 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ing directory on the destination.  In other words, each of the  follow‐[m
+[7m Manual page rsync(1) line 112 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ing  commands copies the files in the same way, including their setting[m
+[7m Manual page rsync(1) line 113 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       of the attributes of /dest/foo:[m
+[7m Manual page rsync(1) line 114 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 115 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -av /src/foo /dest[m
+[7m Manual page rsync(1) line 116 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -av /src/foo/ /dest/foo[m
+[7m Manual page rsync(1) line 117 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 118 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Note also that host and module  references  don’t  require  a  trailing[m
+[7m Manual page rsync(1) line 119 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       slash to copy the contents of the default directory.  For example, both[m
+[7m Manual page rsync(1) line 120 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       of these copy the remote directory’s contents into "/dest":[m
+[7m Manual page rsync(1) line 121 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 122 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -av host: /dest[m
+[7m Manual page rsync(1) line 123 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -av host::module /dest[m
+[7m Manual page rsync(1) line 124 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 125 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       You can also use rsync in local-only mode, where both  the  source  and[m
+[7m Manual page rsync(1) line 126 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       destination  don’t have a ’:’ in the name. In this case it behaves like[m
+[7m Manual page rsync(1) line 127 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       an improved copy command.[m
+[7m Manual page rsync(1) line 128 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 129 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Finally, you can list all the (listable) modules available from a  par‐[m
+[7m Manual page rsync(1) line 130 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ticular rsync daemon by leaving off the module name:[m
+[7m Manual page rsync(1) line 131 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 132 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync somehost.mydomain.com::[m
+[7m Manual page rsync(1) line 133 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 134 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       See the following section for more details.[m
+[7m Manual page rsync(1) line 135 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 136 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mADVANCED[0m [1mUSAGE[0m[m
+[7m Manual page rsync(1) line 137 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       The  syntax for requesting multiple files from a remote host is done by[m
+[7m Manual page rsync(1) line 138 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       specifying additional remote-host args in the same style as the  first,[m
+[7m Manual page rsync(1) line 139 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       or with the hostname omitted.  For instance, all these work:[m
+[7m Manual page rsync(1) line 140 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 141 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -av host:file1 :file2 host:file{3,4} /dest/[m
+[7m Manual page rsync(1) line 142 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -av host::modname/file{1,2} host::modname/file3 /dest/[m
+[7m Manual page rsync(1) line 143 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -av host::modname/file1 ::modname/file{3,4}[m
+[7m Manual page rsync(1) line 144 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 145 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Older  versions  of rsync required using quoted spaces in the SRC, like[m
+[7m Manual page rsync(1) line 146 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       these examples:[m
+[7m Manual page rsync(1) line 147 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 148 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -av host:'dir1/file1 dir2/file2' /dest[m
+[7m Manual page rsync(1) line 149 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync host::'modname/dir1/file1 modname/dir2/file2' /dest[m
+[7m Manual page rsync(1) line 150 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 151 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       This word-splitting still works (by default) in the latest  rsync,  but[m
+[7m Manual page rsync(1) line 152 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       is not as easy to use as the first method.[m
+[7m Manual page rsync(1) line 153 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 154 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       If  you  need  to transfer a filename that contains whitespace, you can[m
+[7m Manual page rsync(1) line 155 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       either specify the [1m--protect-args[0m ([1m-s[0m) option, or you’ll need to escape[m
+[7m Manual page rsync(1) line 156 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the  whitespace  in  a  way that the remote shell will understand.  For[m
+[7m Manual page rsync(1) line 157 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       instance:[m
+[7m Manual page rsync(1) line 158 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 159 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -av host:'file\ name\ with\ spaces' /dest[m
+[7m Manual page rsync(1) line 160 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 161 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mCONNECTING[0m [1mTO[0m [1mAN[0m [1mRSYNC[0m [1mDAEMON[0m[m
+[7m Manual page rsync(1) line 162 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       It is also possible to use rsync without a remote shell as  the  trans‐[m
+[7m Manual page rsync(1) line 163 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       port.  In this case you will directly connect to a remote rsync daemon,[m
+[7m Manual page rsync(1) line 164 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       typically using TCP port 873.  (This obviously requires the  daemon  to[m
+[7m Manual page rsync(1) line 165 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       be running on the remote system, so refer to the STARTING AN RSYNC DAE‐[m
+[7m Manual page rsync(1) line 166 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       MON TO ACCEPT CONNECTIONS section below for information on that.)[m
+[7m Manual page rsync(1) line 167 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 168 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Using rsync in this way is the same as using it  with  a  remote  shell[m
+[7m Manual page rsync(1) line 169 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       except that:[m
+[7m Manual page rsync(1) line 170 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 171 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      you  either  use  a double colon :: instead of a single colon to[m
+[7m Manual page rsync(1) line 172 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              separate the hostname from the path, or you use an rsync:// URL.[m
+[7m Manual page rsync(1) line 173 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 174 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      the first word of the "path" is actually a module name.[m
+[7m Manual page rsync(1) line 175 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 176 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      the remote daemon may print a message of the day when  you  con‐[m
+[7m Manual page rsync(1) line 177 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              nect.[m
+[7m Manual page rsync(1) line 178 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 179 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      if  you  specify no path name on the remote daemon then the list[m
+[7m Manual page rsync(1) line 180 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              of accessible paths on the daemon will be shown.[m
+[7m Manual page rsync(1) line 181 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 182 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      if you specify no local destination then a listing of the speci‐[m
+[7m Manual page rsync(1) line 183 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              fied files on the remote daemon is provided.[m
+[7m Manual page rsync(1) line 184 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 185 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       o      you must not specify the [1m--rsh[0m ([1m-e[0m) option.[m
+[7m Manual page rsync(1) line 186 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 187 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       An example that copies all the files in a remote module named "src":[m
+[7m Manual page rsync(1) line 188 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 189 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           rsync -av host::src /dest[m
+[7m Manual page rsync(1) line 190 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 191 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Some  modules  on  the remote daemon may require authentication. If so,[m
+[7m Manual page rsync(1) line 192 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       you will receive a password prompt when you connect. You can avoid  the[m
+[7m Manual page rsync(1) line 193 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       password  prompt  by setting the environment variable RSYNC_PASSWORD to[m
+[7m Manual page rsync(1) line 194 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the password you want to use or using the [1m--password-file[0m option.  This[m
+[7m Manual page rsync(1) line 195 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       may be useful when scripting rsync.[m
+[7m Manual page rsync(1) line 196 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 197 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       WARNING:  On  some  systems  environment  variables  are visible to all[m
+[7m Manual page rsync(1) line 198 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       users. On those systems using [1m--password-file[0m is recommended.[m
+[7m Manual page rsync(1) line 199 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 200 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       You may establish the connection via a web proxy by setting  the  envi‐[m
+[7m Manual page rsync(1) line 201 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ronment  variable  RSYNC_PROXY to a hostname:port pair pointing to your[m
+[7m Manual page rsync(1) line 202 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       web proxy.  Note that your web proxy’s configuration must support proxy[m
+[7m Manual page rsync(1) line 203 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       connections to port 873.[m
+[7m Manual page rsync(1) line 204 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 205 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       You  may  also establish a daemon connection using a program as a proxy[m
+[7m Manual page rsync(1) line 206 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       by setting the environment variable RSYNC_CONNECT_PROG to the  commands[m
+[7m Manual page rsync(1) line 207 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       you  wish  to  run  in place of making a direct socket connection.  The[m
+[7m Manual page rsync(1) line 208 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       string may contain the escape "%H" to represent the hostname  specified[m
+[7m Manual page rsync(1) line 209 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       in  the  rsync  command  (so  use "%%" if you need a single "%" in your[m
+[7m Manual page rsync(1) line 210 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       string).  For example:[m
+[7m Manual page rsync(1) line 211 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 212 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K         export RSYNC_CONNECT_PROG='ssh proxyhost nc %H 873'[m
+[7m Manual page rsync(1) line 213 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K         rsync -av targethost1::module/src/ /dest/[m
+[7m Manual page rsync(1) line 214 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K         rsync -av rsync:://targethost2/module/src/ /dest/[m
+[7m Manual page rsync(1) line 215 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 216 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       The command specified above uses ssh to run nc (netcat) on a proxyhost,[m
+[7m Manual page rsync(1) line 217 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       which  forwards all data to port 873 (the rsync daemon) on the targeth‐[m
+[7m Manual page rsync(1) line 218 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ost (%H).[m
+[7m Manual page rsync(1) line 219 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 220 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mUSING[0m [1mRSYNC-DAEMON[0m [1mFEATURES[0m [1mVIA[0m [1mA[0m [1mREMOTE-SHELL[0m [1mCONNECTION[0m[m
+[7m Manual page rsync(1) line 221 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       It is sometimes useful to use various features of an rsync daemon (such[m
+[7m Manual page rsync(1) line 222 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       as  named modules) without actually allowing any new socket connections[m
+[7m Manual page rsync(1) line 223 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       into  a  system  (other  than  what  is  already  required   to   allow[m
+[7m Manual page rsync(1) line 224 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       remote-shell  access).   Rsync  supports  connecting  to a host using a[m
+[7m Manual page rsync(1) line 225 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       remote shell and  then  spawning  a  single-use  "daemon"  server  that[m
+[7m Manual page rsync(1) line 226 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       expects  to  read  its  config file in the home dir of the remote user.[m
+[7m Manual page rsync(1) line 227 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       This can be useful if you want to  encrypt  a  daemon-style  transfer’s[m
+[7m Manual page rsync(1) line 228 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       data,  but since the daemon is started up fresh by the remote user, you[m
+[7m Manual page rsync(1) line 229 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       may not be able to use features such as chroot or change the  uid  used[m
+[7m Manual page rsync(1) line 230 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       by the daemon.  (For another way to encrypt a daemon transfer, consider[m
+[7m Manual page rsync(1) line 231 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       using ssh to tunnel a local port to a remote machine  and  configure  a[m
+[7m Manual page rsync(1) line 232 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       normal  rsync daemon on that remote host to only allow connections from[m
+[7m Manual page rsync(1) line 233 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       "localhost".)[m
+[7m Manual page rsync(1) line 234 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 235 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       From the user’s perspective, a daemon transfer via a remote-shell  con‐[m
+[7m Manual page rsync(1) line 236 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       nection uses nearly the same command-line syntax as a normal rsync-dae‐[m
+[7m Manual page rsync(1) line 237 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       mon transfer, with the only exception being that  you  must  explicitly[m
+[7m Manual page rsync(1) line 238 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       set the remote shell program on the command-line with the [1m--rsh=COMMAND[0m[m
+[7m Manual page rsync(1) line 239 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       option.  (Setting the RSYNC_RSH in the environment  will  not  turn  on[m
+[7m Manual page rsync(1) line 240 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       this functionality.)  For example:[m
+[7m Manual page rsync(1) line 241 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 242 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           rsync -av --rsh=ssh host::module /dest[m
+[7m Manual page rsync(1) line 243 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 244 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       If you need to specify a different remote-shell user, keep in mind that[m
+[7m Manual page rsync(1) line 245 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the user@ prefix in front of the  host  is  specifying  the  rsync-user[m
+[7m Manual page rsync(1) line 246 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       value  (for  a  module  that requires user-based authentication).  This[m
+[7m Manual page rsync(1) line 247 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       means that you must give the ’-l user’ option to  ssh  when  specifying[m
+[7m Manual page rsync(1) line 248 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the remote-shell, as in this example that uses the short version of the[m
+[7m Manual page rsync(1) line 249 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--rsh[0m option:[m
+[7m Manual page rsync(1) line 250 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 251 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           rsync -av -e "ssh -l ssh-user" rsync-user@host::module /dest[m
+[7m Manual page rsync(1) line 252 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 253 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       The "ssh-user" will be used at the ssh level; the "rsync-user" will  be[m
+[7m Manual page rsync(1) line 254 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       used to log-in to the "module".[m
+[7m Manual page rsync(1) line 255 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 256 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mSTARTING[0m [1mAN[0m [1mRSYNC[0m [1mDAEMON[0m [1mTO[0m [1mACCEPT[0m [1mCONNECTIONS[0m[m
+[7m Manual page rsync(1) line 257 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       In order to connect to an rsync daemon, the remote system needs to have[m
+[7m Manual page rsync(1) line 258 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       a daemon already running (or it needs to have configured something like[m
+[7m Manual page rsync(1) line 259 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       inetd to spawn an rsync daemon for incoming connections on a particular[m
+[7m Manual page rsync(1) line 260 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       port).  For full information on how to start a daemon  that  will  han‐[m
+[7m Manual page rsync(1) line 261 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       dling  incoming  socket connections, see the [1mrsyncd.conf[0m(5) man page --[m
+[7m Manual page rsync(1) line 262 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       that is the config file for  the  daemon,  and  it  contains  the  full[m
+[7m Manual page rsync(1) line 263 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       details for how to run the daemon (including stand-alone and inetd con‐[m
+[7m Manual page rsync(1) line 264 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       figurations).[m
+[7m Manual page rsync(1) line 265 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 266 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       If you’re using one of the remote-shell transports  for  the  transfer,[m
+[7m Manual page rsync(1) line 267 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       there is no need to manually start an rsync daemon.[m
+[7m Manual page rsync(1) line 268 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 269 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mSORTED[0m [1mTRANSFER[0m [1mORDER[0m[m
+[7m Manual page rsync(1) line 270 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Rsync  always  sorts the specified filenames into its internal transfer[m
+[7m Manual page rsync(1) line 271 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       list.  This handles the merging together of the contents of identically[m
+[7m Manual page rsync(1) line 272 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       named directories, makes it easy to remove duplicate filenames, and may[m
+[7m Manual page rsync(1) line 273 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       confuse someone when the files are transferred  in  a  different  order[m
+[7m Manual page rsync(1) line 274 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       than what was given on the command-line.[m
+[7m Manual page rsync(1) line 275 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 276 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       If  you  need  a  particular  file  to be transferred prior to another,[m
+[7m Manual page rsync(1) line 277 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       either separate the files into different rsync calls, or consider using[m
+[7m Manual page rsync(1) line 278 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--delay-updates[0m  (which  doesn’t  affect the sorted transfer order, but[m
+[7m Manual page rsync(1) line 279 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       does make the final file-updating phase happen much more rapidly).[m
+[7m Manual page rsync(1) line 280 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 281 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mEXAMPLES[0m[m
+[7m Manual page rsync(1) line 282 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Here are some examples of how I use rsync.[m
+[7m Manual page rsync(1) line 283 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 284 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       To backup my wife’s home directory, which consists  of  large  MS  Word[m
+[7m Manual page rsync(1) line 285 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       files and mail folders, I use a cron job that runs[m
+[7m Manual page rsync(1) line 286 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 287 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync -Cavz . arvidsjaur:backup[m
+[7m Manual page rsync(1) line 288 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 289 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       each night over a PPP connection to a duplicate directory on my machine[m
+[7m Manual page rsync(1) line 290 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       "arvidsjaur".[m
+[7m Manual page rsync(1) line 291 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 292 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       To synchronize my samba source trees I use the following Makefile  tar‐[m
+[7m Manual page rsync(1) line 293 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       gets:[m
+[7m Manual page rsync(1) line 294 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 295 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           get:[m
+[7m Manual page rsync(1) line 296 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                   rsync -avuzb --exclude '*~' samba:samba/ .[m
+[7m Manual page rsync(1) line 297 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           put:[m
+[7m Manual page rsync(1) line 298 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                   rsync -Cavuzb . samba:samba/[m
+[7m Manual page rsync(1) line 299 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           sync: get put[m
+[7m Manual page rsync(1) line 300 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 301 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       this  allows  me  to  sync with a CVS directory at the other end of the[m
+[7m Manual page rsync(1) line 302 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       connection. I then do CVS operations on the remote machine, which saves[m
+[7m Manual page rsync(1) line 303 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       a lot of time as the remote CVS protocol isn’t very efficient.[m
+[7m Manual page rsync(1) line 304 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 305 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       I mirror a directory between my "old" and "new" ftp sites with the com‐[m
+[7m Manual page rsync(1) line 306 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       mand:[m
+[7m Manual page rsync(1) line 307 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 308 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       rsync -az -e ssh --delete ~ftp/pub/samba nimbus:"~ftp/pub/tridge"[m
+[7m Manual page rsync(1) line 309 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 310 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       This is launched from cron every few hours.[m
+[7m Manual page rsync(1) line 311 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 312 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mOPTIONS[0m [1mSUMMARY[0m[m
+[7m Manual page rsync(1) line 313 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Here is a short summary of the options available in rsync. Please refer[m
+[7m Manual page rsync(1) line 314 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       to the detailed description below for a complete description.[m
+[7m Manual page rsync(1) line 315 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 316 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -v, --verbose               increase verbosity[m
+[7m Manual page rsync(1) line 317 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --info=FLAGS            fine-grained informational verbosity[m
+[7m Manual page rsync(1) line 318 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --debug=FLAGS           fine-grained debug verbosity[m
+[7m Manual page rsync(1) line 319 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --msgs2stderr           special output handling for debugging[m
+[7m Manual page rsync(1) line 320 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -q, --quiet                 suppress non-error messages[m
+[7m Manual page rsync(1) line 321 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --no-motd               suppress daemon-mode MOTD (see caveat)[m
+[7m Manual page rsync(1) line 322 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -c, --checksum              skip based on checksum, not mod-time & size[m
+[7m Manual page rsync(1) line 323 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)[m
+[7m Manual page rsync(1) line 324 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --no-OPTION             turn off an implied OPTION (e.g. --no-D)[m
+[7m Manual page rsync(1) line 325 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       this  allows  me  to  sync with a CVS directory at the other end of the[m
+[24;1H
+[K[7m Manual page rsync(1) line 324 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page rsync(1) line 323 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM           sync: get put[m
+[24;1H
+[K[7m Manual page rsync(1) line 322 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -c, --checksum              skip based on checksum, not mod-time & size[m
+[7m Manual page rsync(1) line 323 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)[m
+[7m Manual page rsync(1) line 324 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --no-OPTION             turn off an implied OPTION (e.g. --no-D)[m
+[7m Manual page rsync(1) line 325 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -r, --recursive             recurse into directories[m
+[7m Manual page rsync(1) line 326 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -R, --relative              use relative path names[m
+[7m Manual page rsync(1) line 327 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --no-implied-dirs       don't send implied dirs with --relative[m
+[7m Manual page rsync(1) line 328 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -b, --backup                make backups (see --suffix & --backup-dir)[m
+[7m Manual page rsync(1) line 329 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --backup-dir=DIR        make backups into hierarchy based in DIR[m
+[7m Manual page rsync(1) line 330 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --suffix=SUFFIX         backup suffix (default ~ w/o --backup-dir)[m
+[7m Manual page rsync(1) line 331 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -u, --update                skip files that are newer on the receiver[m
+[7m Manual page rsync(1) line 332 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --inplace               update destination files in-place[m
+[7m Manual page rsync(1) line 333 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --append                append data onto shorter files[m
+[7m Manual page rsync(1) line 334 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       This is launched from cron every few hours.[m
+[24;1H
+[K[7m Manual page rsync(1) line 333 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page rsync(1) line 332 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM       rsync -az -e ssh --delete ~ftp/pub/samba nimbus:"~ftp/pub/tridge"[m
+[24;1H
+[K[7m Manual page rsync(1) line 331 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -u, --update                skip files that are newer on the receiver[m
+[7m Manual page rsync(1) line 332 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --inplace               update destination files in-place[m
+[7m Manual page rsync(1) line 333 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --append                append data onto shorter files[m
+[7m Manual page rsync(1) line 334 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --append-verify         --append w/old data in file checksum[m
+[7m Manual page rsync(1) line 335 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -d, --dirs                  transfer directories without recursing[m
+[7m Manual page rsync(1) line 336 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -l, --links                 copy symlinks as symlinks[m
+[7m Manual page rsync(1) line 337 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -L, --copy-links            transform symlink into referent file/dir[m
+[7m Manual page rsync(1) line 338 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --copy-unsafe-links     only "unsafe" symlinks are transformed[m
+[7m Manual page rsync(1) line 339 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --safe-links            ignore symlinks that point outside the tree[m
+[7m Manual page rsync(1) line 340 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --munge-links           munge symlinks to make them safer[m
+[7m Manual page rsync(1) line 341 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -k, --copy-dirlinks         transform symlink to dir into referent dir[m
+[7m Manual page rsync(1) line 342 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -K, --keep-dirlinks         treat symlinked dir on receiver as dir[m
+[7m Manual page rsync(1) line 343 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -H, --hard-links            preserve hard links[m
+[7m Manual page rsync(1) line 344 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -p, --perms                 preserve permissions[m
+[7m Manual page rsync(1) line 345 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -E, --executability         preserve executability[m
+[7m Manual page rsync(1) line 346 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --chmod=CHMOD           affect file and/or directory permissions[m
+[7m Manual page rsync(1) line 347 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -A, --acls                  preserve ACLs (implies -p)[m
+[7m Manual page rsync(1) line 348 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -X, --xattrs                preserve extended attributes[m
+[7m Manual page rsync(1) line 349 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -o, --owner                 preserve owner (super-user only)[m
+[7m Manual page rsync(1) line 350 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -g, --group                 preserve group[m
+[7m Manual page rsync(1) line 351 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --devices               preserve device files (super-user only)[m
+[7m Manual page rsync(1) line 352 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --specials              preserve special files[m
+[7m Manual page rsync(1) line 353 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -D                          same as --devices --specials[m
+[7m Manual page rsync(1) line 354 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -t, --times                 preserve modification times[m
+[7m Manual page rsync(1) line 355 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -O, --omit-dir-times        omit directories from --times[m
+[7m Manual page rsync(1) line 356 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -J, --omit-link-times       omit symlinks from --times[m
+[7m Manual page rsync(1) line 357 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --super                 receiver attempts super-user activities[m
+[7m Manual page rsync(1) line 358 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --fake-super            store/recover privileged attrs using xattrs[m
+[7m Manual page rsync(1) line 359 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -S, --sparse                handle sparse files efficiently[m
+[7m Manual page rsync(1) line 360 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --preallocate           allocate dest files before writing[m
+[7m Manual page rsync(1) line 361 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -n, --dry-run               perform a trial run with no changes made[m
+[7m Manual page rsync(1) line 362 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -W, --whole-file            copy files whole (w/o delta-xfer algorithm)[m
+[7m Manual page rsync(1) line 363 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -x, --one-file-system       don't cross filesystem boundaries[m
+[7m Manual page rsync(1) line 364 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -B, --block-size=SIZE       force a fixed checksum block-size[m
+[7m Manual page rsync(1) line 365 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -e, --rsh=COMMAND           specify the remote shell to use[m
+[7m Manual page rsync(1) line 366 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --rsync-path=PROGRAM    specify the rsync to run on remote machine[m
+[7m Manual page rsync(1) line 367 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --existing              skip creating new files on receiver[m
+[7m Manual page rsync(1) line 368 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --ignore-existing       skip updating files that exist on receiver[m
+[7m Manual page rsync(1) line 369 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --remove-source-files   sender removes synchronized files (non-dir)[m
+[7m Manual page rsync(1) line 370 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --del                   an alias for --delete-during[m
+[7m Manual page rsync(1) line 371 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --delete                delete extraneous files from dest dirs[m
+[7m Manual page rsync(1) line 372 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --delete-before         receiver deletes before xfer, not during[m
+[7m Manual page rsync(1) line 373 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --delete-during         receiver deletes during the transfer[m
+[7m Manual page rsync(1) line 374 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --delete-delay          find deletions during, delete after[m
+[7m Manual page rsync(1) line 375 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --delete-after          receiver deletes after transfer, not during[m
+[7m Manual page rsync(1) line 376 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --delete-excluded       also delete excluded files from dest dirs[m
+[7m Manual page rsync(1) line 377 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --ignore-missing-args   ignore missing source args without error[m
+[7m Manual page rsync(1) line 378 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --delete-missing-args   delete missing source args from destination[m
+[7m Manual page rsync(1) line 379 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --ignore-errors         delete even if there are I/O errors[m
+[7m Manual page rsync(1) line 380 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --force                 force deletion of dirs even if not empty[m
+[7m Manual page rsync(1) line 381 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --max-delete=NUM        don't delete more than NUM files[m
+[7m Manual page rsync(1) line 382 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --max-size=SIZE         don't transfer any file larger than SIZE[m
+[7m Manual page rsync(1) line 383 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --min-size=SIZE         don't transfer any file smaller than SIZE[m
+[7m Manual page rsync(1) line 384 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --partial               keep partially transferred files[m
+[7m Manual page rsync(1) line 385 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --partial-dir=DIR       put a partially transferred file into DIR[m
+[7m Manual page rsync(1) line 386 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --delay-updates         put all updated files into place at end[m
+[7m Manual page rsync(1) line 387 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -m, --prune-empty-dirs      prune empty directory chains from file-list[m
+[7m Manual page rsync(1) line 388 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --numeric-ids           don't map uid/gid values by user/group name[m
+[7m Manual page rsync(1) line 389 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --usermap=STRING        custom username mapping[m
+[7m Manual page rsync(1) line 390 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --groupmap=STRING       custom groupname mapping[m
+[7m Manual page rsync(1) line 391 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --chown=USER:GROUP      simple username/groupname mapping[m
+[7m Manual page rsync(1) line 392 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --timeout=SECONDS       set I/O timeout in seconds[m
+[7m Manual page rsync(1) line 393 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --contimeout=SECONDS    set daemon connection timeout in seconds[m
+[7m Manual page rsync(1) line 394 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -I, --ignore-times          don't skip files that match size and time[m
+[7m Manual page rsync(1) line 395 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --size-only             skip files that match in size[m
+[7m Manual page rsync(1) line 396 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --modify-window=NUM     compare mod-times with reduced accuracy[m
+[7m Manual page rsync(1) line 397 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -T, --temp-dir=DIR          create temporary files in directory DIR[m
+[7m Manual page rsync(1) line 398 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -y, --fuzzy                 find similar file for basis if no dest file[m
+[7m Manual page rsync(1) line 399 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --compare-dest=DIR      also compare received files relative to DIR[m
+[7m Manual page rsync(1) line 400 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --copy-dest=DIR         ... and include copies of unchanged files[m
+[7m Manual page rsync(1) line 401 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --link-dest=DIR         hardlink to files in DIR when unchanged[m
+[7m Manual page rsync(1) line 402 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -z, --compress              compress file data during the transfer[m
+[7m Manual page rsync(1) line 403 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --compress-level=NUM    explicitly set compression level[m
+[7m Manual page rsync(1) line 404 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --skip-compress=LIST    skip compressing files with suffix in LIST[m
+[7m Manual page rsync(1) line 405 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -C, --cvs-exclude           auto-ignore files in the same way CVS does[m
+[7m Manual page rsync(1) line 406 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -f, --filter=RULE           add a file-filtering RULE[m
+[7m Manual page rsync(1) line 407 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -F                          same as --filter='dir-merge /.rsync-filter'[m
+[7m Manual page rsync(1) line 408 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                                    repeated: --filter='- .rsync-filter'[m
+[7m Manual page rsync(1) line 409 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --exclude=PATTERN       exclude files matching PATTERN[m
+[7m Manual page rsync(1) line 410 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --exclude-from=FILE     read exclude patterns from FILE[m
+[7m Manual page rsync(1) line 411 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --include=PATTERN       don't exclude files matching PATTERN[m
+[7m Manual page rsync(1) line 412 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --include-from=FILE     read include patterns from FILE[m
+[7m Manual page rsync(1) line 413 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --files-from=FILE       read list of source-file names from FILE[m
+[7m Manual page rsync(1) line 414 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -0, --from0                 all *from/filter files are delimited by 0s[m
+[7m Manual page rsync(1) line 415 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -s, --protect-args          no space-splitting; wildcard chars only[m
+[7m Manual page rsync(1) line 416 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --address=ADDRESS       bind address for outgoing socket to daemon[m
+[7m Manual page rsync(1) line 417 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --port=PORT             specify double-colon alternate port number[m
+[7m Manual page rsync(1) line 418 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --sockopts=OPTIONS      specify custom TCP options[m
+[7m Manual page rsync(1) line 419 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --blocking-io           use blocking I/O for the remote shell[m
+[7m Manual page rsync(1) line 420 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --outbuf=N|L|B          set out buffering to None, Line, or Block[m
+[7m Manual page rsync(1) line 421 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --stats                 give some file-transfer stats[m
+[7m Manual page rsync(1) line 422 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -8, --8-bit-output          leave high-bit chars unescaped in output[m
+[7m Manual page rsync(1) line 423 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -h, --human-readable        output numbers in a human-readable format[m
+[7m Manual page rsync(1) line 424 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --progress              show progress during transfer[m
+[7m Manual page rsync(1) line 425 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -P                          same as --partial --progress[m
+[7m Manual page rsync(1) line 426 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -i, --itemize-changes       output a change-summary for all updates[m
+[7m Manual page rsync(1) line 427 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -M, --remote-option=OPTION  send OPTION to the remote side only[m
+[7m Manual page rsync(1) line 428 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --out-format=FORMAT     output updates using the specified FORMAT[m
+[7m Manual page rsync(1) line 429 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --log-file=FILE         log what we're doing to the specified FILE[m
+[7m Manual page rsync(1) line 430 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --log-file-format=FMT   log updates using the specified FMT[m
+[7m Manual page rsync(1) line 431 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --password-file=FILE    read daemon-access password from FILE[m
+[7m Manual page rsync(1) line 432 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --list-only             list the files instead of copying them[m
+[7m Manual page rsync(1) line 433 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --bwlimit=RATE          limit socket I/O bandwidth[m
+[7m Manual page rsync(1) line 434 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --write-batch=FILE      write a batched update to FILE[m
+[7m Manual page rsync(1) line 435 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --only-write-batch=FILE like --write-batch but w/o updating dest[m
+[7m Manual page rsync(1) line 436 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --read-batch=FILE       read a batched update from FILE[m
+[7m Manual page rsync(1) line 437 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --protocol=NUM          force an older protocol version to be used[m
+[7m Manual page rsync(1) line 438 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --iconv=CONVERT_SPEC    request charset conversion of filenames[m
+[7m Manual page rsync(1) line 439 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --checksum-seed=NUM     set block/file checksum seed (advanced)[m
+[7m Manual page rsync(1) line 440 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -4, --ipv4                  prefer IPv4[m
+[7m Manual page rsync(1) line 441 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -6, --ipv6                  prefer IPv6[m
+[7m Manual page rsync(1) line 442 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --version               print version number[m
+[7m Manual page rsync(1) line 443 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       (-h) --help                  show this help (see below for -h comment)[m
+[7m Manual page rsync(1) line 444 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 445 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Rsync  can also be run as a daemon, in which case the following options[m
+[7m Manual page rsync(1) line 446 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       are accepted:[m
+[7m Manual page rsync(1) line 447 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 448 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --daemon                run as an rsync daemon[m
+[7m Manual page rsync(1) line 449 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --address=ADDRESS       bind to the specified address[m
+[7m Manual page rsync(1) line 450 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --bwlimit=RATE          limit socket I/O bandwidth[m
+[7m Manual page rsync(1) line 451 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --config=FILE           specify alternate rsyncd.conf file[m
+[7m Manual page rsync(1) line 452 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -M, --dparam=OVERRIDE       override global daemon config parameter[m
+[7m Manual page rsync(1) line 453 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --no-detach             do not detach from the parent[m
+[7m Manual page rsync(1) line 454 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --port=PORT             listen on alternate port number[m
+[7m Manual page rsync(1) line 455 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --log-file=FILE         override the "log file" setting[m
+[7m Manual page rsync(1) line 456 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --log-file-format=FMT   override the "log format" setting[m
+[7m Manual page rsync(1) line 457 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K            --sockopts=OPTIONS      specify custom TCP options[m
+[7m Manual page rsync(1) line 458 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -v, --verbose               increase verbosity[m
+[7m Manual page rsync(1) line 459 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -4, --ipv4                  prefer IPv4[m
+[7m Manual page rsync(1) line 460 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -6, --ipv6                  prefer IPv6[m
+[7m Manual page rsync(1) line 461 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K        -h, --help                  show this help (if used after --daemon)[m
+[7m Manual page rsync(1) line 462 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 463 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mOPTIONS[0m[m
+[7m Manual page rsync(1) line 464 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Rsync accepts both long (double-dash + word) and short  (single-dash  +[m
+[7m Manual page rsync(1) line 465 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       letter)  options.  The full list of the available options are described[m
+[7m Manual page rsync(1) line 466 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       below.  If an option can be specified in more than one way, the choices[m
+[7m Manual page rsync(1) line 467 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       are  comma-separated.   Some  options  only  have a long variant, not a[m
+[7m Manual page rsync(1) line 468 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       short.  If the option takes a parameter, the parameter is  only  listed[m
+[7m Manual page rsync(1) line 469 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       after  the  long variant, even though it must also be specified for the[m
+[7m Manual page rsync(1) line 470 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       short.  When specifying a  parameter,  you  can  either  use  the  form[m
+[7m Manual page rsync(1) line 471 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       --option=param  or  replace the ’=’ with whitespace.  The parameter may[m
+[7m Manual page rsync(1) line 472 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       need to be quoted in some manner for it to  survive  the  shell’s  com‐[m
+[7m Manual page rsync(1) line 473 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       mand-line parsing.  Keep in mind that a leading tilde (~) in a filename[m
+[7m Manual page rsync(1) line 474 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       is substituted by your shell, so --option=~/foo  will  not  change  the[m
+[7m Manual page rsync(1) line 475 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       tilde into your home directory (remove the ’=’ for that).[m
+[7m Manual page rsync(1) line 476 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 477 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--help[0m Print  a  short  help  page  describing the options available in[m
+[7m Manual page rsync(1) line 478 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rsync and exit.  For backward-compatibility with older  versions[m
+[7m Manual page rsync(1) line 479 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              of  rsync, the help will also be output if you use the [1m-h[0m option[m
+[7m Manual page rsync(1) line 480 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              without any other args.[m
+[7m Manual page rsync(1) line 481 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 482 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--version[0m[m
+[7m Manual page rsync(1) line 483 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              print the rsync version number and exit.[m
+[7m Manual page rsync(1) line 484 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 485 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-v,[0m [1m--verbose[0m[m
+[7m Manual page rsync(1) line 486 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              This option increases the amount of information  you  are  given[m
+[7m Manual page rsync(1) line 487 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              during the transfer.  By default, rsync works silently. A single[m
+[7m Manual page rsync(1) line 488 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [1m-v[0m will give you information about what files are  being  trans‐[m
+[7m Manual page rsync(1) line 489 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              ferred  and a brief summary at the end. Two [1m-v[0m options will give[m
+[7m Manual page rsync(1) line 490 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              you information on what files are  being  skipped  and  slightly[m
+[7m Manual page rsync(1) line 491 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              more  information  at  the  end. More than two [1m-v[0m options should[m
+[7m Manual page rsync(1) line 492 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              only be used if you are debugging rsync.[m
+[7m Manual page rsync(1) line 493 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 494 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              In a modern rsync, the [1m-v[0m option is equivalent to the setting of[m
+[7m Manual page rsync(1) line 495 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              groups  of  [1m--info[0m  and  [1m--debug[0m options.  You can choose to use[m
+[7m Manual page rsync(1) line 496 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              these newer options in addition to, or in place of using  [1m--ver‐[0m[m
+[7m Manual page rsync(1) line 497 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [1mbose[0m, as any fine-grained settings override the implied settings[m
+[7m Manual page rsync(1) line 498 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              of [1m-v[0m.  Both [1m--info[0m and [1m--debug[0m have a way to ask for help  that[m
+[7m Manual page rsync(1) line 499 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tells  you  exactly what flags are set for each increase in ver‐[m
+[7m Manual page rsync(1) line 500 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              bosity.[m
+[7m Manual page rsync(1) line 501 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 502 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              However, do keep in mind that a daemon’s "max verbosity" setting[m
+[7m Manual page rsync(1) line 503 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              will  limit how high of a level the various individual flags can[m
+[7m Manual page rsync(1) line 504 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              be set on the daemon side.  For instance, if the max is 2,  then[m
+[7m Manual page rsync(1) line 505 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              any  info  and/or  debug flag that is set to a higher value than[m
+[7m Manual page rsync(1) line 506 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              what would be set by [1m-vv[0m will be downgraded to the [1m-vv[0m level  in[m
+[7m Manual page rsync(1) line 507 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the daemon’s logging.[m
+[7m Manual page rsync(1) line 508 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 509 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--info=FLAGS[0m[m
+[7m Manual page rsync(1) line 510 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              This option lets you have fine-grained control over the informa‐[m
+[7m Manual page rsync(1) line 511 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tion output you want to see.  An individual  flag  name  may  be[m
+[7m Manual page rsync(1) line 512 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              followed  by a level number, with 0 meaning to silence that out‐[m
+[7m Manual page rsync(1) line 513 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              put, 1 being  the  default  output  level,  and  higher  numbers[m
+[7m Manual page rsync(1) line 514 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              increasing  the  output  of  that  flag  (for those that support[m
+[7m Manual page rsync(1) line 515 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              higher levels).  Use [1m--info=help[0m to see all the  available  flag[m
+[7m Manual page rsync(1) line 516 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              names,  what they output, and what flag names are added for each[m
+[7m Manual page rsync(1) line 517 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              increase in the verbose level.  Some examples:[m
+[7m Manual page rsync(1) line 518 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 519 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                  rsync -a --info=progress2 src/ dest/[m
+[7m Manual page rsync(1) line 520 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                  rsync -avv --info=stats2,misc1,flist0 src/ dest/[m
+[7m Manual page rsync(1) line 521 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 522 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Note that [1m--info=name[0m’s output is affected by  the  [1m--out-format[0m[m
+[7m Manual page rsync(1) line 523 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              and  [1m--itemize-changes[0m ([1m-i[0m) options.  See those options for more[m
+[7m Manual page rsync(1) line 524 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              information on what is output and when.[m
+[7m Manual page rsync(1) line 525 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 526 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              This option was added to 3.1.0, so an older rsync on the  server[m
+[7m Manual page rsync(1) line 527 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              side  might reject your attempts at fine-grained control (if one[m
+[7m Manual page rsync(1) line 528 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              or more flags needed to be send to the server and the server was[m
+[7m Manual page rsync(1) line 529 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              too  old  to  understand  them).   See  also the "max verbosity"[m
+[7m Manual page rsync(1) line 530 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              caveat above when dealing with a daemon.[m
+[7m Manual page rsync(1) line 531 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 532 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--debug=FLAGS[0m[m
+[7m Manual page rsync(1) line 533 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              This option lets you have fine-grained control  over  the  debug[m
+[7m Manual page rsync(1) line 534 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              output you want to see.  An individual flag name may be followed[m
+[7m Manual page rsync(1) line 535 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              by a level number, with 0 meaning  to  silence  that  output,  1[m
+[7m Manual page rsync(1) line 536 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              being  the  default  output level, and higher numbers increasing[m
+[7m Manual page rsync(1) line 537 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the output of that flag (for those that support higher  levels).[m
+[7m Manual page rsync(1) line 538 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Use  [1m--debug=help[0m to see all the available flag names, what they[m
+[7m Manual page rsync(1) line 539 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              output, and what flag names are added for each increase  in  the[m
+[7m Manual page rsync(1) line 540 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              verbose level.  Some examples:[m
+[7m Manual page rsync(1) line 541 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 542 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                  rsync -avvv --debug=none src/ dest/[m
+[7m Manual page rsync(1) line 543 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                  rsync -avA --del --debug=del2,acl src/ dest/[m
+[7m Manual page rsync(1) line 544 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 545 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Note   that  some  debug  messages  will  only  be  output  when[m
+[7m Manual page rsync(1) line 546 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [1m--msgs2stderr[0m is specified, especially those pertaining  to  I/O[m
+[7m Manual page rsync(1) line 547 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              and buffer debugging.[m
+[7m Manual page rsync(1) line 548 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 549 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              This  option was added to 3.1.0, so an older rsync on the server[m
+[7m Manual page rsync(1) line 550 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              side might reject your attempts at fine-grained control (if  one[m
+[7m Manual page rsync(1) line 551 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              or more flags needed to be send to the server and the server was[m
+[7m Manual page rsync(1) line 552 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              too old to understand  them).   See  also  the  "max  verbosity"[m
+[7m Manual page rsync(1) line 553 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              caveat above when dealing with a daemon.[m
+[7m Manual page rsync(1) line 554 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page rsync(1) line 555 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m--msgs2stderr[0m[m
+[7m Manual page rsync(1) line 556 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ rsync -avzh public_html/ root@10.11.12.13:/home/[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@c[1@s[1@2[1@3[1@2[C[C[C[C[C[C[1P@10.11.12.13:/home/[1P@10.11.12.13:/home/[1P@10.11.12.13:/home/[1P@10.11.12.13:/home/c@10.11.12.13:/home/s@10.11.12.13:/home/1@10.11.12.13:/home/7@10.11.12.13:/home/d@10.11.12.13:/home/4@10.11.12.13:/home/2@10.11.12.13:/home/[C[C[C[1P.11.12.13:/home/9.11.12.13:/home/2.11.12.13:/home/[C[C[C[1P.12.13:/home/6.12.13:/home/8.12.13:/home/[C[C[C[1P.13:/home/[1P.13:/home/0.13:/home/[C[C[C[1P:/home/[1P:/home/3:/home/0:/home/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+sending incremental file list
+rsync: failed to set times on "/home/.": Operation not permitted (1)
+./
+README.md
+cec.txt
+ceccs17d42.14.02.19.txt
+ceccs17d42.28.02.2019.txt
+ceccs17d42.7.2.2019.txt
+networkconf.txt
+s1s2.sh
+rsync: recv_generator: mkdir "/home/.git" failed: Permission denied (13)
+*** Skipping any contents from this failed directory ***
+.git/
+rsync: mkstemp "/home/.README.md.S9RYF3" failed: Permission denied (13)
+rsync: mkstemp "/home/.cec.txt.73mw3M" failed: Permission denied (13)
+rsync: mkstemp "/home/.ceccs17d42.14.02.19.txt.PU63qw" failed: Permission denied (13)
+rsync: mkstemp "/home/.ceccs17d42.28.02.2019.txt.rk8HOf" failed: Permission denied (13)
+rsync: mkstemp "/home/.ceccs17d42.7.2.2019.txt.MReYcZ" failed: Permission denied (13)
+rsync: mkstemp "/home/.networkconf.txt.f9HmBI" failed: Permission denied (13)
+rsync: mkstemp "/home/.s1s2.sh.9sRLZr" failed: Permission denied (13)
+
+sent 40.67K bytes  received 969 bytes  11.90K bytes/sec
+total size is 410.18K  speedup is 9.85
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ rsync -avzh cs232/ cs17d42@192.168.0.30:/home/
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman rsync[K[1Psu - cecdo apt-get install rsync
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Psh cs17d42@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kssh cs17d42@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 11:01:08 2019 from 192.168.0.189
+
+$ ^[[A^[[A        rsync -avzh cs232/ cs17d42@192.168.0.30:/home/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+sending incremental file list
+rsync: chgrp "/home/." failed: Operation not permitted (1)
+./
+s1s2.sh
+sftp.sh
+xyz.txt
+rsync: mkstemp "/home/.s1s2.sh.F21458" failed: Permission denied (13)
+rsync: mkstemp "/home/.sftp.sh.msGXmw" failed: Permission denied (13)
+rsync: mkstemp "/home/.xyz.txt.00vQDT" failed: Permission denied (13)
+
+sent 848 bytes  received 361 bytes  345.43 bytes/sec
+total size is 1.48K  speedup is 1.22
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ ls
+cs232  examples.desktop  xyz.txt
+$ cs232
+-sh: 3: cs232: not found
+$ cs c   d cs232
+$ ls
+s1s2.sh  sftp.sh  xyz.txt
+$ rsync -avzh cs232/ cs17d42@192.168.0.30:/home
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+sending incremental file list
+rsync: change_dir "/home/cs17d42/cs232//cs232" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  9.14 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ ^^?  rsync -avzh cs232 cs17d42@192.168.0.30:/home/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+sending incremental file list
+rsync: link_stat "/home/cs17d42/cs232/cs232" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  8.57 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ ls\ 
+s1s2.sh  sftp.sh  xyz.txt
+$ cd ,,  ..
+$ ls
+cs232  examples.desktop  xyz.txt
+$ rsync -avzh cs232 cs17d42@192.168.0.30:/home/      
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+sending incremental file list
+
+sent 141 bytes  received 17 bytes  45.14 bytes/sec
+total size is 1.48K  speedup is 9.35
+$ ls
+cs232  examples.desktop  xyz.txt
+$ cs232
+-sh: 13: cs232: not found
+$ cds cs     cs232
+$ ls
+s1s2.sh  sftp.sh  xyz.txt
+$ rsync -avzh cs232/ cs17d42@192.168.0.30:/home/     cs232
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+sending incremental file list
+rsync: change_dir "/home/cs17d42/cs232//cs232" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  9.14 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ rsync -avzh cs232/ cs17d42@192.168.0.30:/home/      
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+Permission denied, please try again.
+
+cs17d42@192.168.0.30's password: 
+sending incremental file list
+rsync: change_dir "/home/cs17d42/cs232//cs232" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  1.49 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ ls
+s1s2.sh  sftp.sh  xyz.txt
+$ cd.  ..
+$ ls
+cs232  examples.desktop  xyz.txt
+$ rsync -avzh cs232/ cs17d42@192.168.0.30:/home/      
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+sending incremental file list
+./
+s1s2.sh
+sftp.sh
+xyz.txt
+
+sent 808 bytes  received 82 bytes  197.78 bytes/sec
+total size is 1.48K  speedup is 1.66
+$ ;s  ls
+cs232  examples.desktop  s1s2.sh  sftp.sh  xyz.txt
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ rsync -avzh cs232/ cs17d42@192.168.0.30:
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+sending incremental file list
+./
+README.md
+cec.txt
+ceccs17d42.14.02.19.txt
+ceccs17d42.28.02.2019.txt
+ceccs17d42.7.2.2019.txt
+networkconf.txt
+s1s2.sh
+.git/
+.git/COMMIT_EDITMSG
+.git/FETCH_HEAD
+.git/HEAD
+.git/config
+.git/description
+.git/index
+.git/branches/
+.git/hooks/
+.git/hooks/applypatch-msg.sample
+.git/hooks/commit-msg.sample
+.git/hooks/post-update.sample
+.git/hooks/pre-applypatch.sample
+.git/hooks/pre-commit.sample
+.git/hooks/pre-push.sample
+.git/hooks/pre-rebase.sample
+.git/hooks/prepare-commit-msg.sample
+.git/hooks/update.sample
+.git/info/
+.git/info/exclude
+.git/logs/
+.git/logs/HEAD
+.git/logs/refs/
+.git/logs/refs/heads/
+.git/logs/refs/heads/master
+.git/logs/refs/remotes/
+.git/logs/refs/remotes/origin/
+.git/logs/refs/remotes/origin/master
+.git/objects/
+.git/objects/07/
+.git/objects/07/d0b7898520499bdc3bca2db5aa00c69f23030e
+.git/objects/26/
+.git/objects/26/95bd113cd0b41b0f762468debb0c6982d1ed3f
+.git/objects/44/
+.git/objects/44/93471dc113d5647739867da8f30421006450bf
+.git/objects/47/
+.git/objects/47/558a660214daa6edd73c65aab2aa516098858e
+.git/objects/info/
+.git/objects/pack/
+.git/refs/
+.git/refs/heads/
+.git/refs/heads/master
+.git/refs/remotes/
+.git/refs/remotes/origin/
+.git/refs/remotes/origin/master
+.git/refs/tags/
+
+sent 57.43K bytes  received 731 bytes  16.62K bytes/sec
+total size is 410.18K  speedup is 7.05
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ls
+a.txt      [0m[01;34mDownloads[0m         [01;34mPublic[0m       sftp.sh   [01;34mTask[0m       wine.txt
+[01;34mcs232[0m      examples.desktop  Result.txt   sftp.txt  [01;34mTemplates[0m  [01;34mWorks[0m
+[01;34mDesktop[0m    [01;34mMusic[0m             reviews.txt  ssh1.txt  [01;34mVideos[0m     xyz.txt
+[01;34mDocuments[0m  [01;34mPictures[0m          s1s2.sh      ssh.txt   [01;34mW[0m
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ ssh cec[K[Ks17d42@192.169[K8.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 11:18:08 2019 from 192.168.0.189
+
+$ ls
+ceccs17d42.14.02.19.txt    cec.txt	     networkconf.txt  sftp.sh
+ceccs17d42.28.02.2019.txt  cs232	     README.md	      xyz.txt
+ceccs17d42.7.2.2019.txt    examples.desktop  s1s2.sh
+$ esx  xit
+Connection to 192.168.0.30 closed.
+
+]0;s4d2@cec-H110M: ~[01;32ms4d2@cec-H110M[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 28 March 2019 11:30:03 AM IST
+Script done on Thursday 28 March 2019 10:13:34 AM IST
