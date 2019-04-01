@@ -1,0 +1,162 @@
+s4d2@cec-H110M:~$ ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          inet addr:192.168.0.189  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::2b4d:9935:f69d:b0c0/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:17658 errors:0 dropped:6 overruns:0 frame:0
+          TX packets:11045 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:11775343 (11.7 MB)  TX bytes:1498090 (1.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:6248 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6248 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:463536 (463.5 KB)  TX bytes:463536 (463.5 KB)
+
+s4d2@cec-H110M:~$ ifconfig enp1s0
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          inet addr:192.168.0.189  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::2b4d:9935:f69d:b0c0/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:18038 errors:0 dropped:6 overruns:0 frame:0
+          TX packets:11073 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:11843375 (11.8 MB)  TX bytes:1500784 (1.5 MB)
+
+s4d2@cec-H110M:~$ ping 192.168.0.189
+PING 192.168.0.189 (192.168.0.189) 56(84) bytes of data.
+64 bytes from 192.168.0.189: icmp_seq=1 ttl=64 time=0.066 ms
+64 bytes from 192.168.0.189: icmp_seq=2 ttl=64 time=0.047 ms
+64 bytes from 192.168.0.189: icmp_seq=3 ttl=64 time=0.048 ms
+64 bytes from 192.168.0.189: icmp_seq=4 ttl=64 time=0.049 ms
+64 bytes from 192.168.0.189: icmp_seq=5 ttl=64 time=0.048 ms
+64 bytes from 192.168.0.189: icmp_seq=6 ttl=64 time=0.048 ms
+64 bytes from 192.168.0.189: icmp_seq=7 ttl=64 time=0.025 ms
+64 bytes from 192.168.0.189: icmp_seq=8 ttl=64 time=0.029 ms
+64 bytes from 192.168.0.189: icmp_seq=9 ttl=64 time=0.061 ms
+64 bytes from 192.168.0.189: icmp_seq=10 ttl=64 time=0.046 ms
+64 bytes from 192.168.0.189: icmp_seq=11 ttl=64 time=0.048 ms
+^C
+--- 192.168.0.189 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10239ms
+rtt min/avg/max/mdev = 0.025/0.046/0.066/0.014 ms
+
+s4d2@cec-H110M:~$ ip link show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: enp1s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP mode DEFAULT group default qlen 1000
+    link/ether e0:d5:5e:07:61:3d brd ff:ff:ff:ff:ff:ff
+cec@cec-H110M:~$ sudo ifconfig
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:9238 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:9238 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:685032 (685.0 KB)  TX bytes:685032 (685.0 KB)
+
+cec@cec-H110M:~$ sudo ifconfig enp1s0 up
+cec@cec-H110M:~$ sudo ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          inet addr:192.168.0.189  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::2b4d:9935:f69d:b0c0/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:22315 errors:0 dropped:8 overruns:0 frame:0
+          TX packets:12660 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:13566808 (13.5 MB)  TX bytes:1699428 (1.6 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:9270 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:9270 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:687464 (687.4 KB)  TX bytes:687464 (687.4 KB)
+
+cec@cec-H110M:~$ sudo ping 192.168.0.189
+PING 192.168.0.189 (192.168.0.189) 56(84) bytes of data.
+64 bytes from 192.168.0.189: icmp_seq=1 ttl=64 time=0.051 ms
+64 bytes from 192.168.0.189: icmp_seq=2 ttl=64 time=0.046 ms
+64 bytes from 192.168.0.189: icmp_seq=3 ttl=64 time=0.043 ms
+64 bytes from 192.168.0.189: icmp_seq=4 ttl=64 time=0.050 ms
+64 bytes from 192.168.0.189: icmp_seq=5 ttl=64 time=0.045 ms
+64 bytes from 192.168.0.189: icmp_seq=6 ttl=64 time=0.062 ms
+^C
+--- 192.168.0.189 ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5081ms
+rtt min/avg/max/mdev = 0.043/0.049/0.062/0.009 ms
+cec@cec-H110M:~$ exit
+logout
+s4d2@cec-H110M:~$ netstat -r
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+default         192.168.0.2     0.0.0.0         UG        0 0          0 enp1s0
+link-local      *               255.255.0.0     U         0 0          0 enp1s0
+192.168.0.0     *               255.255.255.0   U         0 0          0 enp1s0
+s4d2@cec-H110M:~$ netstat -i
+Kernel Interface table
+Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg
+enp1s0     1500 0     57733      0     10 0         32298      0      0      0 BMRU
+lo        65536 0     13958      0      0 0         13958      0      0      0 LRU
+s4d2@cec-H110M:~$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         192.168.0.2     0.0.0.0         UG    100    0        0 enp1s0
+link-local      *               255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     *               255.255.255.0   U     100    0        0 enp1s0
+s4d2@cec-H110M:~$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.0.2     0.0.0.0         UG    100    0        0 enp1s0
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 enp1s0
+cec@cec-H110M:~$ sudo ifconfig enp1s0 192.168.0.200
+cec@cec-H110M:~$ sudo ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          inet addr:192.168.0.200  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:71807 errors:0 dropped:16 overruns:0 frame:0
+          TX packets:36885 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:48205978 (48.2 MB)  TX bytes:4891045 (4.8 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:19750 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:19750 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1463336 (1.4 MB)  TX bytes:1463336 (1.4 MB)
+
+cec@cec-H110M:~$ sudo ifconfig enp1s0 192.168.0.189
+cec@cec-H110M:~$ sudo ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          inet addr:192.168.0.189  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:71807 errors:0 dropped:16 overruns:0 frame:0
+          TX packets:36885 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:48205978 (48.2 MB)  TX bytes:4891045 (4.8 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:19920 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:19920 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1476056 (1.4 MB)  TX bytes:1476056 (1.4 MB)
+
+cec@cec-H110M:~$ exit
+logout
+
+
+
