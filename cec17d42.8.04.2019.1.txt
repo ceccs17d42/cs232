@@ -1,0 +1,541 @@
+##PACKAGE MANAGEMENT ##
+
+
+s4d2@cec-H110M:~$ su - cec
+Password: 
+cec@cec-H110M:~$ sudo apt-get update
+[sudo] password for cec: 
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://packages.microsoft.com/repos/vscode stable InRelease              
+Hit:3 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease        
+Hit:4 http://dl.google.com/linux/chrome/deb stable Release                     
+Hit:6 http://security.ubuntu.com/ubuntu xenial-security InRelease              
+Hit:7 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:8 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:9 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:10 https://download.sublimetext.com apt/stable/ InRelease
+Reading package lists... Done 
+cec@cec-H110M:~$ sudo apt-get upgrade
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Calculating upgrade... Done
+The following packages have been kept back:
+  nam
+The following packages will be upgraded:
+  code google-chrome-stable libpam-systemd libsystemd0 libudev1 sublime-text
+  systemd systemd-sysv udev
+9 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Need to get 120 MB of archives.
+After this operation, 1,451 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://packages.microsoft.com/repos/vscode stable/main amd64 code amd64 1.33.0-1554390824 [47.4 MB]
+Get:2 http://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 73.0.3683.103-1 [57.6 MB]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 systemd-sysv amd64 229-4ubuntu21.19 [11.3 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpam-systemd amd64 229-4ubuntu21.19 [115 kB]
+Get:5 https://download.sublimetext.com apt/stable/ sublime-text 3207 [9,846 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsystemd0 amd64 229-4ubuntu21.19 [204 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 systemd amd64 229-4ubuntu21.19 [3,636 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 udev amd64 229-4ubuntu21.19 [993 kB]
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libudev1 amd64 229-4ubuntu21.19 [53.9 kB]
+Fetched 120 MB in 19s (6,180 kB/s)                                             
+(Reading database ... 235084 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_229-4ubuntu21.19_amd64.deb ...
+Unpacking systemd-sysv (229-4ubuntu21.19) over (229-4ubuntu21.17) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up systemd-sysv (229-4ubuntu21.19) ...
+(Reading database ... 235084 files and directories currently installed.)
+Preparing to unpack .../libpam-systemd_229-4ubuntu21.19_amd64.deb ...
+Unpacking libpam-systemd:amd64 (229-4ubuntu21.19) over (229-4ubuntu21.17) ...
+Preparing to unpack .../libsystemd0_229-4ubuntu21.19_amd64.deb ...
+Unpacking libsystemd0:amd64 (229-4ubuntu21.19) over (229-4ubuntu21.17) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Setting up libsystemd0:amd64 (229-4ubuntu21.19) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+(Reading database ... 235084 files and directories currently installed.)
+Preparing to unpack .../systemd_229-4ubuntu21.19_amd64.deb ...
+Unpacking systemd (229-4ubuntu21.19) over (229-4ubuntu21.17) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for dbus (1.10.6-1ubuntu3.3) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up systemd (229-4ubuntu21.19) ...
+addgroup: The group `systemd-journal' already exists as a system group. Exiting.
+[/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+(Reading database ... 235084 files and directories currently installed.)
+Preparing to unpack .../udev_229-4ubuntu21.19_amd64.deb ...
+Unpacking udev (229-4ubuntu21.19) over (229-4ubuntu21.17) ...
+Preparing to unpack .../libudev1_229-4ubuntu21.19_amd64.deb ...
+Unpacking libudev1:amd64 (229-4ubuntu21.19) over (229-4ubuntu21.17) ...
+Processing triggers for systemd (229-4ubuntu21.19) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Setting up libudev1:amd64 (229-4ubuntu21.19) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+(Reading database ... 235084 files and directories currently installed.)
+Preparing to unpack .../google-chrome-stable_73.0.3683.103-1_amd64.deb ...
+Unpacking google-chrome-stable (73.0.3683.103-1) over (73.0.3683.86-1) ...
+Preparing to unpack .../code_1.33.0-1554390824_amd64.deb ...
+Unpacking code (1.33.0-1554390824) over (1.32.3-1552606978) ...
+Preparing to unpack .../sublime-text_3207_amd64.deb ...
+Unpacking sublime-text (3207) over (3200) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5.2) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20180209-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1.1) ...
+Setting up libpam-systemd:amd64 (229-4ubuntu21.19) ...
+Setting up udev (229-4ubuntu21.19) ...
+addgroup: The group `input' already exists as a system group. Exiting.
+update-initramfs: deferring update (trigger activated)
+Setting up google-chrome-stable (73.0.3683.103-1) ...
+Setting up code (1.33.0-1554390824) ...
+Setting up sublime-text (3207) ...
+Processing triggers for initramfs-tools (0.122ubuntu8.14) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-47-generic
+W: Possible missing firmware /lib/firmware/i915/kbl_guc_ver9_14.bin for module i915
+W: Possible missing firmware /lib/firmware/i915/bxt_guc_ver8_7.bin for module i915
+cec@cec-H110M:~$ apt search apache2
+Sorting... Done
+Full Text Search... Done
+adzapper/xenial,xenial 20090301.dfsg.1-0.2 all
+  proxy advertisement zapper add-on
+
+apache2/xenial-updates,xenial-security,now 2.4.18-2ubuntu3.10 amd64 [installed]
+  Apache HTTP Server
+
+apache2-bin/xenial-updates,xenial-security,now 2.4.18-2ubuntu3.10 amd64 [installed]
+  Apache HTTP Server (modules and other binary files)
+
+apache2-data/xenial-updates,xenial-updates,xenial-security,xenial-security,now 2.4.18-2ubuntu3.10 all [installed,automatic]
+  Apache HTTP Server (common files)
+
+apache2-dbg/xenial-updates,xenial-security 2.4.18-2ubuntu3.10 amd64
+  Apache debugging symbols
+
+apache2-dev/xenial-updates,xenial-security 2.4.18-2ubuntu3.10 amd64
+  Apache HTTP Server (development headers)
+
+apache2-doc/xenial-updates,xenial-updates,xenial-security,xenial-security,now 2.4.18-2ubuntu3.10 all [installed]
+  Apache HTTP Server (on-site documentation)
+
+apache2-suexec-custom/xenial-updates,xenial-security 2.4.18-2ubuntu3.10 amd64
+  Apache HTTP Server configurable suexec program for mod_suexec
+
+apache2-suexec-pristine/xenial-updates,xenial-security 2.4.18-2ubuntu3.10 amd64
+  Apache HTTP Server standard suexec program for mod_suexec
+
+apache2-utils/xenial-updates,xenial-security,now 2.4.18-2ubuntu3.10 amd64 [installed]
+  Apache HTTP Server (utility programs for web servers)
+
+cortado/xenial,xenial 0.6.0-3 all
+  streaming applet for Ogg formats
+
+fusiondirectory-plugin-apache2/xenial-updates,xenial-updates 1.0.8.8-3ubuntu2.16.04.1 all
+  Apache virtualhost plugin for FusionDirectory
+
+fusiondirectory-plugin-apache2-schema/xenial-updates,xenial-updates 1.0.8.8-3ubuntu2.16.04.1 all
+  LDAP schema for FusionDirectory apache2 plugin
+
+gforge-web-apache2/xenial,xenial 6.0.3+20151023-1ubuntu1 all
+  Dummy upgrade package for FusionForge
+
+gitweb/xenial-updates,xenial-updates,xenial-security,xenial-security 1:2.7.4-0ubuntu1.6 all
+  fast, scalable, distributed revision control system (web interface)
+
+libapache-mod-jk-doc/xenial,xenial 1:1.2.41-1 all
+  Documentation of libapache2-mod-jk package
+
+libapache2-authcassimple-perl/xenial,xenial 0.10-3 all
+  Apache2 module to authenticate trough a CAS server
+
+libapache2-authcookie-perl/xenial,xenial 3.24-1 all
+  Perl Authentication and Authorization via cookies
+
+libapache2-authenntlm-perl/xenial 0.02-8build1 amd64
+  module for Microsoft NTLM and Basic User Authentication
+
+libapache2-mod-apparmor/xenial-updates,xenial-security 2.10.95-0ubuntu2.10 amd64
+  changehat AppArmor library as an Apache module
+
+libapache2-mod-apreq2/xenial 2.13-4ubuntu2 amd64
+  generic Apache request library - Apache module
+
+libapache2-mod-auth-cas/xenial 1.0.9.1-4 amd64
+  CAS authentication module for Apache2
+
+libapache2-mod-auth-gssapi/xenial 1.3.2-1 amd64
+  GSSAPI Authentication module for Apache2
+
+libapache2-mod-auth-kerb/xenial 5.4-2.2 amd64
+  apache2 module for Kerberos authentication
+
+libapache2-mod-auth-mellon/xenial 0.12.0-1 amd64
+  SAML 2.0 authentication module for Apache
+
+libapache2-mod-auth-memcookie/xenial 1.0.2-8 amd64
+  Apache2 authentication and authorization module.
+
+libapache2-mod-auth-ntlm-winbind/xenial 0.0.0.lorikeet+svn+801-4 amd64
+  apache2 module for NTLM authentication against Winbind
+
+libapache2-mod-auth-openid/xenial 0.8-1build1 amd64
+  OpenID authentication module for Apache2
+
+libapache2-mod-auth-openidc/xenial 1.8.5-1 amd64
+  OpenID Connect authentication module for Apache
+
+libapache2-mod-auth-pgsql/xenial-updates 2.0.3-6.1ubuntu0.16.04.1 amd64
+  Module for Apache2 which provides PostgreSQL authentication
+
+libapache2-mod-auth-plain/xenial 2.0.52 amd64
+  Module for Apache2 which provides plaintext authentication
+
+libapache2-mod-auth-pubtkt/xenial 0.8-4 amd64
+  key-based single-sign-on authentication module for Apache
+
+libapache2-mod-auth-radius/xenial 1.5.8-1.3 amd64
+  Apache 2.x module for RADIUS authentication
+
+libapache2-mod-auth-tkt/xenial 2.1.0+dfsg-1 amd64
+  lightweight single-sign-on authentication module for Apache
+
+libapache2-mod-authn-sasl/xenial 1.2-2 amd64
+  SASL authentication backend provider for Apache
+
+libapache2-mod-authn-webid/xenial 0~20110301-4 amd64
+  WebID FOAF+SSL authentication module for Apache
+
+libapache2-mod-authn-yubikey/xenial 1.0-1.1 amd64
+  Yubikey authentication provider for Apache
+
+libapache2-mod-authnz-external/xenial 3.3.2-0.1 amd64
+  authenticate Apache against external authentication services
+
+libapache2-mod-authnz-pam/xenial 1.0.1-1 amd64
+  PAM authorization checker and PAM Basic Authentication provider
+
+libapache2-mod-authnz-persona/xenial 0.8.1-1 amd64
+  Apache module implementing Persona authentication
+
+libapache2-mod-authz-securepass/xenial 0~20150105.gitda462d3-1 amd64
+  Apache2 module for authorizing SecurePass users
+
+libapache2-mod-authz-unixgroup/xenial 1.1.0-0.1 amd64
+  access control based on on unix group membership for Apache
+
+libapache2-mod-bw/xenial 0.92-11 amd64
+  bandwidth limiting module for apache2
+
+libapache2-mod-dacs/xenial 1.4.28b-3ubuntu2 amd64
+  Distributed Access Control System (DACS) - Apache Module
+
+libapache2-mod-defensible/xenial 1.4-3.1ubuntu2 amd64
+  module for Apache2 which provides DNSBL usage
+
+libapache2-mod-dnssd/xenial 0.6-3.1 amd64
+  Zeroconf support for Apache 2 via avahi
+
+libapache2-mod-encoding/xenial 20040616-5.2 amd64
+  Apache2 module for non-ascii filename interoperability
+
+libapache2-mod-evasive/xenial 1.10.1-3 amd64
+  evasive module to minimize HTTP DoS or brute force attacks
+
+libapache2-mod-fastcgi/xenial 2.4.7~0910052141-1.2 amd64
+  Apache 2 FastCGI module for long-running CGI scripts
+
+libapache2-mod-fcgid/xenial 1:2.3.9-1 amd64
+  FastCGI interface module for Apache 2
+
+libapache2-mod-fcgid-dbg/xenial 1:2.3.9-1 amd64
+  debugging symbols for mod_fcgid
+
+libapache2-mod-form/xenial 0~svn146-1 amd64
+  Apache module to decode data submitted from Web forms
+
+libapache2-mod-form-dev/xenial,xenial 0~svn146-1 all
+  Apache module to decode data submitted from Web forms (development files)
+
+libapache2-mod-geoip/xenial 1.2.10-1 amd64
+  GeoIP support for apache2
+
+libapache2-mod-gnutls/xenial 0.7.3-0ubuntu1 amd64
+  Apache module for SSL and TLS encryption with GnuTLS
+
+libapache2-mod-intercept-form-submit/xenial 0.9.8-1 amd64
+  Apache module to intercept login form submission and run PAM authentication
+
+libapache2-mod-jk/xenial 1:1.2.41-1 amd64
+  Apache 2 connector for the Tomcat Java servlet engine
+
+libapache2-mod-ldap-userdir/xenial 1.1.19-2.1 amd64
+  Apache module that provides UserDir lookups via LDAP
+
+libapache2-mod-ldap-userdir-dbg/xenial 1.1.19-2.1 amd64
+  Debugging symbols for mod_ldap_userdir
+
+libapache2-mod-lisp/xenial 1.3.1-1.3 amd64
+  An Apache2 module that interfaces with Lisp environments
+
+libapache2-mod-log-slow/xenial 1.0.8-3 amd64
+  Apache module for logging of slow requests handling
+
+libapache2-mod-log-sql/xenial 1.100-16.2build1 amd64
+  Use SQL to store/write your Apache queries logs - Base
+
+libapache2-mod-log-sql-dbi/xenial 1.100-16.2build1 amd64
+  Use SQL to store/write your Apache queries logs - DBI interface
+
+libapache2-mod-log-sql-mysql/xenial 1.100-16.2build1 amd64
+  Use SQL to store/write your Apache queries logs - MySQL interface
+
+libapache2-mod-log-sql-ssl/xenial 1.100-16.2build1 amd64
+  Use SQL to store/write your Apache queries logs - SSL extension
+
+libapache2-mod-lookup-identity/xenial 0.9.3-1 amd64
+  Apache module to retrieve additional information about the authenticated user
+
+libapache2-mod-mapcache/xenial 1.4.0-4 amd64
+  tile caching server - Apache module
+
+libapache2-mod-mime-xattr/xenial 0.4-6 amd64
+  Apache2 module to get MIME info from filesystem extended attributes
+
+libapache2-mod-mono/xenial 3.8-3 amd64
+  Apache module for running ASP.NET applications on Mono
+
+libapache2-mod-musicindex/xenial 1.4.1-1build1 amd64
+  Browse, stream, download and search through MP3/Ogg/FLAC/MP4 files
+
+libapache2-mod-neko/xenial,xenial 2.0.0-4build1 all
+  Apache module for running server-side Neko programs
+
+libapache2-mod-netcgi-apache/xenial 4.0.4-1build3 amd64
+  OCaml application-level Internet libraries - netcgi2 Apache2 connector
+
+libapache2-mod-nss/xenial 1.0.12-2 amd64
+  NSS-based SSL module for Apache2
+
+libapache2-mod-parser3/xenial 3.4.3-6 amd64
+  Parser 3, HTML-embedded scripting language (Apache2 module)
+
+libapache2-mod-passenger/xenial 5.0.27-2 amd64
+  Rails and Rack support for Apache2
+
+libapache2-mod-perl2/xenial-updates,xenial-security 2.0.9-4ubuntu1.2 amd64
+  Integration of perl with the Apache2 web server
+
+libapache2-mod-perl2-dev/xenial-updates,xenial-updates,xenial-security,xenial-security 2.0.9-4ubuntu1.2 all
+  Integration of perl with the Apache2 web server - development files
+
+libapache2-mod-perl2-doc/xenial-updates,xenial-updates,xenial-security,xenial-security 2.0.9-4ubuntu1.2 all
+  Integration of perl with the Apache2 web server - documentation
+
+libapache2-mod-php/xenial-updates,xenial-updates 1:7.0+35ubuntu6.1 all
+  server-side, HTML-embedded scripting language (Apache 2 module) (default)
+
+libapache2-mod-php7.0/xenial-updates,xenial-security 7.0.33-0ubuntu0.16.04.3 amd64
+  server-side, HTML-embedded scripting language (Apache 2 module)
+
+libapache2-mod-proxy-msrpc/xenial 0.6-1 amd64
+  Apache module for Outlook Anywhere support in reverse proxy setups
+
+libapache2-mod-proxy-uwsgi/xenial-updates,xenial-security 2.0.12-5ubuntu3.2 amd64
+  uwsgi proxy module for Apache2 (mod_uwsgi)
+
+libapache2-mod-proxy-uwsgi-dbg/xenial-updates,xenial-security 2.0.12-5ubuntu3.2 amd64
+  debugging symbols for Apache2 mod_proxy_uwsgi
+
+libapache2-mod-python/xenial 3.3.1-11ubuntu2 amd64
+  Python-embedding module for Apache 2
+
+libapache2-mod-python-doc/xenial,xenial 3.3.1-11ubuntu2 all
+  Python-embedding module for Apache 2 - documentation
+
+libapache2-mod-qos/xenial 11.21-1 amd64
+  quality of service module for the apache2
+
+libapache2-mod-r-base/xenial 1.2.7-1 amd64
+  server-side R integration with Apache 2
+
+libapache2-mod-removeip/xenial 1.0b-5.1 amd64
+  Module to remove IP from apache2's logs
+
+libapache2-mod-rivet/xenial 2.2.4-1 amd64
+  Server-side Tcl programming system combining ease of use and power
+
+libapache2-mod-rivet-doc/xenial,xenial 2.2.4-1 all
+  Documentation for Rivet, a server-side Tcl programming system
+
+libapache2-mod-rpaf/xenial 0.6-13 amd64
+  module for Apache2 which takes the last IP from the 'X-Forwarded-For' header
+
+libapache2-mod-ruid2/xenial 0.9.8-3 amd64
+  suexec module for Apache 2
+
+libapache2-mod-ruwsgi/xenial-updates,xenial-security 2.0.12-5ubuntu3.2 amd64
+  uwsgi module for Apache2 (mod_Ruwsgi)
+
+libapache2-mod-ruwsgi-dbg/xenial-updates,xenial-security 2.0.12-5ubuntu3.2 amd64
+  debugging symbols for Apache2 mod_Ruwsgi
+
+libapache2-mod-scgi/xenial 1.13-1.1build1 amd64
+  Apache module implementing the SCGI protocol
+
+libapache2-mod-security2/xenial 2.9.0-1 amd64
+  Tighten web applications security for Apache
+
+libapache2-mod-shib2/xenial 2.5.3+dfsg-2.1build1 amd64
+  Federated web single sign-on system (Apache module)
+
+libapache2-mod-spamhaus/xenial 0.7-1.1 amd64
+  Apache DNSBL module that blocks listed IP addresses
+
+libapache2-mod-svn/xenial-updates,xenial-security 1.9.3-2ubuntu1.1 amd64
+  Apache Subversion server modules for Apache httpd
+
+libapache2-mod-upload-progress/xenial 0.2-2 amd64
+  upload progress support for the Apache web server
+
+libapache2-mod-uwsgi/xenial-updates,xenial-security 2.0.12-5ubuntu3.2 amd64
+  uwsgi module for Apache2 (mod_uwsgi)
+
+libapache2-mod-uwsgi-dbg/xenial-updates,xenial-security 2.0.12-5ubuntu3.2 amd64
+  debugging symbols for Apache2 mod_uwsgi
+
+libapache2-mod-vhost-ldap/xenial 2.4.0-1 amd64
+  Apache 2 module for Virtual Hosting from LDAP
+
+libapache2-mod-watchcat/xenial 1.1.2-1 amd64
+  Process monitoring Apache module
+
+libapache2-mod-webauth/xenial 4.7.0-3build1 amd64
+  Apache module for WebAuth authentication
+
+libapache2-mod-webauthldap/xenial 4.7.0-3build1 amd64
+  Apache module for WebAuth LDAP lookup and authorization
+
+libapache2-mod-webkdc/xenial 4.7.0-3build1 amd64
+  Apache modules for a WebAuth authentication KDC
+
+libapache2-mod-wsgi/xenial 4.3.0-1.1build1 amd64
+  Python WSGI adapter module for Apache
+
+libapache2-mod-wsgi-py3/xenial 4.3.0-1.1build1 amd64
+  Python 3 WSGI adapter module for Apache
+
+libapache2-mod-xforward/xenial 0.6-1 amd64
+  Apache module implements redirection based on X-Forward response header
+
+libapache2-mod-xsendfile/xenial 0.12-2 amd64
+  Serve large static files efficiently from web applications
+
+libapache2-modsecurity/xenial,xenial 2.9.0-1 all
+  Dummy transitional package
+
+libapache2-mpm-itk/xenial 2.4.7-04-1 amd64
+  multiuser module for Apache
+
+libapache2-reload-perl/xenial,xenial 0.13-1 all
+  module for reloading Perl modules when changed on disk
+
+libapache2-request-perl/xenial 2.13-4ubuntu2 amd64
+  generic Apache request library - Perl modules
+
+libapache2-sitecontrol-perl/xenial,xenial 1.05-1 all
+  perl web site authentication/authorization system
+
+libapache2-svn/xenial-updates,xenial-updates,xenial-security,xenial-security 1.9.3-2ubuntu1.1 all
+  Apache Subversion server modules for Apache httpd (dummy package)
+
+libapache2-webauth/xenial,xenial 4.7.0-3build1 all
+  Transitional package for WebAuth Apache modules
+
+libapache2-webkdc/xenial,xenial 4.7.0-3build1 all
+  Transitional package for WebAuth authentication KDC
+
+libembperl-perl/xenial 2.5.0-6 amd64
+  system for building dynamic websites with Perl
+
+libfile-mmagic-xs-perl/xenial 0.09008-2build1 amd64
+  Perl module to guess file type (à la mod_mime_magic)
+
+liblinux-pid-perl/xenial 0.04-1build2 amd64
+  wrapper around the getpid() and getppid() C functions
+
+libocamlnet-ocaml-dev/xenial 4.0.4-1build3 amd64
+  OCaml application-level Internet libraries - core development libraries
+
+libreverseproxy-formfiller-perl/xenial,xenial 0.5-1 all
+  ModPerl module to fill and submit any html form
+
+libweb-id-perl/xenial,xenial 1.927-1 all
+  implementation of WebID (a.k.a. FOAF+SSL)
+
+mapcache-cgi/xenial 1.4.0-4 amd64
+  tile caching server - CGI binary
+
+mod-musicindex-common/xenial,xenial 1.4.1-1build1 all
+  Common files for mod-musicindex
+
+mono-apache-server4/xenial,xenial 4.2-2build1 all
+  ASP.NET 4.5 backend for mod_mono Apache module
+
+mono-fastcgi-server4/xenial,xenial 4.2-2build1 all
+  ASP.NET 4.0 backend for FastCGI webservers
+
+mono-fpm-server/xenial,xenial 4.2-2build1 all
+  ASP.NET backend for FastCGI Process Manager
+
+passenger-doc/xenial,xenial 5.0.27-2 all
+  Rails and Rack support for Apache2 - Documentation
+
+php7.0-fpm/xenial-updates,xenial-security 7.0.33-0ubuntu0.16.04.3 amd64
+  server-side, HTML-embedded scripting language (FPM-CGI binary)
+
+radicale/xenial,xenial 1.1.1-1 all
+  simple calendar and addressbook server - daemon
+
+rt4-apache2/xenial,xenial 4.2.12-5 all
+  Apache 2 specific files for request-tracker4
+
+shibboleth-sp2-utils/xenial 2.5.3+dfsg-2.1build1 amd64
+  Federated web single sign-on system (daemon and utilities)
+
+subversion-dbg/xenial-updates,xenial-security 1.9.3-2ubuntu1.1 amd64
+  Debug symbols for Apache Subversion
+
+web2ldap/xenial,xenial 1.1.43~dfsg-1 all
+  Full-featured web-based LDAPv3 client
+
+cec@cec-H110M:~$ sudo apt-get install apache2
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+apache2 is already the newest version (2.4.18-2ubuntu3.10).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+cec@cec-H110M:~$ sudo apt remove apache2
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  apache2-data
+Use 'sudo apt autoremove' to remove it.
+The following packages will be REMOVED:
+  apache2
+0 upgraded, 0 newly installed, 1 to remove and 1 not upgraded.
+After this operation, 502 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 235128 files and directories currently installed.)
+Removing apache2 (2.4.18-2ubuntu3.10) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Rules updated for profile 'Nginx HTTP'
+Firewall reloaded
+cec@cec-H110M:~$ exit
+logout
+

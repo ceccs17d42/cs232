@@ -1,0 +1,85 @@
+##        FTP SERVER     ##
+
+cec@cec-H110M:~$ sudo apt install vsftpd
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  apache2-data
+Use 'sudo apt autoremove' to remove it.
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 0 B/115 kB of archives.
+After this operation, 336 kB of additional disk space will be used.
+Preconfiguring packages ...
+Selecting previously unselected package vsftpd.
+(Reading database ... 235024 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-3ubuntu2_amd64.deb ...
+Unpacking vsftpd (3.0.3-3ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.19) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up vsftpd (3.0.3-3ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.19) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+cec@cec-H110M:~$ sudo nano /etc/vsftpd.conf
+cec@cec-H110M:~$ sudo vsftpd
+500 OOPS: could not bind listening IPv6 socket
+cec@cec-H110M:~$ ssh cs17d42@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d42@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+23 packages can be updated.
+0 updates are security updates.
+
+*** System restart required ***
+Last login: Mon Apr  1 11:21:21 2019 from 192.168.0.189
+$ ftp -p 192.168.0.189
+Connected to 192.168.0.189.
+220 (vsFTPd 3.0.3)
+Name (192.168.0.189:cs17d42): s4d2
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+227 Entering Passive Mode (192,168,0,189,171,163).
+150 Here comes the directory listing.
+drwxr-xr-x    3 1010     1010         4096 Mar 29 09:54 Desktop
+drwxr-xr-x    2 1010     1010         4096 Feb 07 09:38 Documents
+drwxr-xr-x    2 1010     1010         4096 Mar 14 09:18 Downloads
+drwxr-xr-x    2 1010     1010         4096 Feb 07 09:38 Music
+drwxr-xr-x    2 1010     1010         4096 Feb 07 09:38 Pictures
+drwxr-xr-x    2 1010     1010         4096 Feb 07 09:38 Public
+-rw-rw-r--    1 1010     1010            0 Feb 14 11:00 Result.txt
+drwxrwxr-x    7 1010     1010         4096 Mar 14 10:55 Task
+drwxr-xr-x    2 1010     1010         4096 Feb 07 09:38 Templates
+drwxr-xr-x    2 1010     1010         4096 Feb 07 09:38 Videos
+drwxrwxr-x    6 1010     1010         4096 Mar 14 09:40 W
+drwxrwxr-x    6 1010     1010         4096 Mar 14 10:40 Works
+-rw-rw-r--    1 1010     1010        21969 Apr 08 09:12 cec17d42.8.04.2019.PackageManagement.txt
+drwxrwxr-x    3 1010     1010         4096 Apr 01 11:19 cs232
+-rw-r--r--    1 1010     1010         8980 Feb 07 09:36 examples.desktop
+drwxr-xr-x    3 65534    65534        4096 Apr 08 09:56 ftp
+-rw-rw-r--    1 1010     1010          387 Apr 01 10:16 networking.sh
+-rw-rw-r--    1 1010     1010        21336 Apr 01 10:04 networkingtask.txt
+-rw-rw-r--    1 1010     1010           45 Feb 07 10:08 reviews.txt
+-rw-rw-r--    1 1010     1010         1397 Mar 14 11:12 s1s2.sh
+-rw-rw-r--    1 1010     1010         1892 Mar 28 09:50 sftp.txt
+-rw-rw-r--    1 1010     1010       114798 Mar 28 11:30 ssh1.txt
+-rw-rw-r--    1 1010     1010           61 Feb 07 10:07 wine.txt
+-rw-rw-r--    1 1010     1010           43 Mar 28 09:49 xyz.txt
+226 Directory send OK.
+ftp> exit
+221 Goodbye.
+$ exit
+Connection to 192.168.0.30 closed.
