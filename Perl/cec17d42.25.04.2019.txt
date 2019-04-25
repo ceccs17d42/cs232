@@ -1,0 +1,46 @@
+##PERL PROGRAM.
+
+s4d2@cec-H110M:~/cs232$ perl -v
+
+This is perl 5, version 22, subversion 1 (v5.22.1) built for x86_64-linux-gnu-thread-multi
+(with 73 registered patches, see perl -V for more detail)
+
+Copyright 1987-2015, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+cec@cec-H110M:~$ sudo apt-get install perl
+[sudo] password for cec: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+perl is already the newest version (5.22.1-9ubuntu0.6).
+0 upgraded, 0 newly installed, 0 to remove and 15 not upgraded.
+
+
+s4d2@cec-H110M:~/cs232$ cat Perlprg.pl 
+#!/usr/bin/perl
+
+$num = 10;
+do {
+	print"$num \n";
+	$num--;
+}
+while($num >= 1);
+print("Now value is less than 1 \n");s4d2@cec-H110M:~/cs232$ perl Perlprg.pl 
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+2 
+1 
+Now value is less than 1
