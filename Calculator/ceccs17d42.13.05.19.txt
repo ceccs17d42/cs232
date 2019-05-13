@@ -1,0 +1,29 @@
+s4d2@cec-H110M:~/cs232$ bash Add.sh 
+Simple Calculator 
+
+Enter two numbers:
+6
+3
+Menu:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+4
+Result : 2.00
+Do you wanna continue?(Yes/No)
+Yes
+Simple Calculator 
+
+Enter two numbers:
+2
+3
+Menu:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+2
+Result : -1
+Do you wanna continue?(Yes/No)
+NO
